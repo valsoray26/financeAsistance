@@ -1,0 +1,1501 @@
+DateTime,Description,Merchant,Category_Code,Category_Name,Type,Amount_EUR,Payment_Method
+1/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+1/1/24 17:31,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.76,Direct Debit
+1/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+1/2/24 11:16,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.15,Direct Debit
+1/2/24 15:54,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-23.69,Card
+1/2/24 22:30,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.7,Card
+1/3/24 7:36,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.51,Direct Debit
+1/3/24 12:26,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.35,Direct Debit
+1/3/24 14:12,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.11,Mobile Payment
+1/3/24 19:12,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.73,Card
+1/3/24 19:34,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.38,Mobile Payment
+1/3/24 22:15,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.7,Direct Debit
+1/4/24 7:11,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.62,Mobile Payment
+1/4/24 9:45,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-48.25,Card
+1/4/24 13:19,Travel Purchase,Booking.com,TRV,Travel,Expense,-28.69,Direct Debit
+1/4/24 13:52,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.46,Direct Debit
+1/5/24 7:44,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.69,Direct Debit
+1/5/24 10:29,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.68,Card
+1/5/24 12:26,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.9,Direct Debit
+1/5/24 14:05,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-53.97,Direct Debit
+1/5/24 19:54,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.48,Direct Debit
+1/5/24 19:59,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-30.39,Card
+1/6/24 19:03,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.45,Mobile Payment
+1/7/24 10:01,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.14,Card
+1/7/24 13:41,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.51,Mobile Payment
+1/8/24 10:38,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.9,Mobile Payment
+1/8/24 13:59,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.19,Direct Debit
+1/8/24 15:26,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.81,Card
+1/8/24 15:34,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.44,Mobile Payment
+1/9/24 9:00,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-13.08,Card
+1/9/24 10:47,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.25,Card
+1/9/24 10:59,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-22.76,Card
+1/9/24 11:41,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-56.47,Card
+1/9/24 20:51,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.65,Card
+1/9/24 22:22,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.9,Direct Debit
+1/10/24 7:52,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.05,Mobile Payment
+1/10/24 8:27,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.43,Direct Debit
+1/10/24 10:42,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.55,Card
+1/10/24 13:36,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-23.02,Direct Debit
+1/10/24 14:14,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.62,Card
+1/11/24 8:53,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.85,Card
+1/11/24 15:43,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.89,Card
+1/11/24 19:30,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.9,Direct Debit
+1/12/24 9:25,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.06,Card
+1/12/24 11:37,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.87,Mobile Payment
+1/12/24 14:02,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.53,Card
+1/12/24 16:26,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.08,Direct Debit
+1/13/24 8:15,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.17,Card
+1/13/24 17:53,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-13.52,Card
+1/15/24 9:09,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.6,Mobile Payment
+1/15/24 9:29,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.77,Direct Debit
+1/15/24 12:17,Travel Purchase,Booking.com,TRV,Travel,Expense,-31.0,Direct Debit
+1/16/24 11:54,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.69,Card
+1/16/24 14:23,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.16,Direct Debit
+1/16/24 21:43,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-24.44,Direct Debit
+1/17/24 9:21,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.57,Card
+1/17/24 18:13,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.05,Direct Debit
+1/18/24 17:22,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-20.13,Card
+1/19/24 11:54,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-21.96,Mobile Payment
+1/19/24 13:18,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.71,Mobile Payment
+1/19/24 13:21,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.49,Mobile Payment
+1/19/24 18:37,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-22.66,Card
+1/19/24 20:14,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.5,Mobile Payment
+1/19/24 22:16,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.21,Card
+1/20/24 7:19,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.3,Direct Debit
+1/20/24 10:38,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.43,Direct Debit
+1/20/24 21:42,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.86,Direct Debit
+1/20/24 22:14,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.33,Direct Debit
+1/21/24 9:12,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.74,Mobile Payment
+1/21/24 20:17,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-28.13,Mobile Payment
+1/21/24 20:47,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.67,Card
+1/22/24 10:16,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-19.58,Direct Debit
+1/22/24 18:34,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.2,Mobile Payment
+1/22/24 19:07,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.63,Mobile Payment
+1/22/24 22:44,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-22.11,Card
+1/23/24 10:47,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.54,Card
+1/23/24 15:28,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.4,Direct Debit
+1/23/24 18:34,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.08,Mobile Payment
+1/24/24 14:44,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-18.78,Mobile Payment
+1/24/24 22:55,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-50.65,Card
+1/25/24 7:26,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.02,Card
+1/25/24 14:26,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.21,Card
+1/25/24 16:36,Travel Purchase,Booking.com,TRV,Travel,Expense,-29.88,Mobile Payment
+1/26/24 9:17,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.65,Mobile Payment
+1/26/24 10:24,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.46,Card
+1/26/24 13:18,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.83,Direct Debit
+1/26/24 16:52,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.47,Card
+1/26/24 19:39,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.69,Card
+1/27/24 13:07,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.74,Card
+1/27/24 13:15,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.51,Direct Debit
+1/27/24 16:38,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.3,Mobile Payment
+1/27/24 17:27,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.96,Mobile Payment
+1/27/24 20:19,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.09,Direct Debit
+1/28/24 7:41,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-23.36,Direct Debit
+1/28/24 9:30,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.04,Mobile Payment
+1/28/24 13:07,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.04,Direct Debit
+1/28/24 16:44,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.44,Direct Debit
+1/28/24 20:09,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.18,Direct Debit
+1/28/24 21:41,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.43,Direct Debit
+1/29/24 7:44,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.5,Direct Debit
+1/29/24 9:35,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.4,Direct Debit
+1/29/24 14:36,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.07,Card
+1/29/24 15:49,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.53,Card
+1/29/24 16:36,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-19.73,Mobile Payment
+1/29/24 18:56,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.43,Direct Debit
+1/30/24 14:05,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.48,Mobile Payment
+1/30/24 15:33,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.05,Direct Debit
+1/31/24 8:22,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.19,Card
+1/31/24 9:59,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-49.5,Card
+1/31/24 12:24,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.93,Direct Debit
+2/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+2/1/24 11:33,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.65,Mobile Payment
+2/1/24 18:35,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.64,Mobile Payment
+2/2/24 7:55,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.18,Mobile Payment
+2/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+2/2/24 10:51,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.55,Direct Debit
+2/2/24 17:01,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.58,Card
+2/2/24 20:26,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.75,Card
+2/3/24 11:03,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.78,Direct Debit
+2/3/24 11:17,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-50.63,Direct Debit
+2/3/24 13:57,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.15,Direct Debit
+2/3/24 16:07,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-18.83,Direct Debit
+2/3/24 16:25,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.24,Direct Debit
+2/4/24 7:24,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.11,Direct Debit
+2/4/24 13:08,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.29,Mobile Payment
+2/4/24 16:19,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.65,Card
+2/4/24 18:16,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.63,Card
+2/4/24 22:43,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-22.22,Mobile Payment
+2/5/24 11:47,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-45.28,Mobile Payment
+2/5/24 15:49,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.04,Mobile Payment
+2/6/24 7:09,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.74,Card
+2/7/24 9:20,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.26,Direct Debit
+2/7/24 9:36,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-36.68,Card
+2/7/24 13:32,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-27.35,Card
+2/7/24 16:21,Travel Purchase,Booking.com,TRV,Travel,Expense,-33.74,Direct Debit
+2/7/24 16:42,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-27.71,Mobile Payment
+2/7/24 19:32,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.23,Mobile Payment
+2/8/24 21:59,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.58,Mobile Payment
+2/9/24 7:49,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.64,Card
+2/9/24 13:33,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.63,Mobile Payment
+2/9/24 22:07,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.2,Mobile Payment
+2/10/24 7:16,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.82,Mobile Payment
+2/10/24 12:21,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.05,Direct Debit
+2/10/24 14:55,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.97,Mobile Payment
+2/10/24 16:53,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.26,Direct Debit
+2/10/24 18:03,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.83,Card
+2/11/24 8:41,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.7,Card
+2/12/24 16:38,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.71,Card
+2/12/24 21:43,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.79,Direct Debit
+2/12/24 22:36,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-55.16,Direct Debit
+2/13/24 8:58,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.08,Mobile Payment
+2/13/24 10:53,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-21.9,Direct Debit
+2/13/24 11:41,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.75,Mobile Payment
+2/13/24 19:32,Travel Purchase,Booking.com,TRV,Travel,Expense,-36.22,Card
+2/14/24 11:24,Travel Purchase,Booking.com,TRV,Travel,Expense,-38.93,Mobile Payment
+2/14/24 17:29,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-45.52,Mobile Payment
+2/15/24 11:19,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-18.48,Mobile Payment
+2/15/24 14:34,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.33,Card
+2/15/24 17:45,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.55,Card
+2/15/24 18:35,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.54,Direct Debit
+2/15/24 19:44,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.77,Mobile Payment
+2/16/24 7:30,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-28.55,Direct Debit
+2/17/24 10:37,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-27.3,Mobile Payment
+2/17/24 13:03,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.18,Mobile Payment
+2/17/24 13:55,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-26.43,Mobile Payment
+2/17/24 14:43,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.0,Card
+2/17/24 16:20,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.63,Direct Debit
+2/17/24 18:52,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.71,Direct Debit
+2/17/24 19:32,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.59,Direct Debit
+2/17/24 19:36,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.54,Mobile Payment
+2/17/24 20:06,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.93,Card
+2/17/24 20:53,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-43.37,Card
+2/17/24 21:06,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.45,Mobile Payment
+2/17/24 21:40,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.89,Card
+2/17/24 22:42,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.39,Card
+2/18/24 8:00,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-24.84,Card
+2/19/24 14:00,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-23.27,Direct Debit
+2/19/24 21:11,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.33,Card
+2/20/24 8:36,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.92,Direct Debit
+2/20/24 8:41,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.2,Card
+2/20/24 10:43,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.25,Direct Debit
+2/20/24 13:40,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.14,Card
+2/20/24 13:58,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.37,Direct Debit
+2/20/24 17:50,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.01,Direct Debit
+2/20/24 18:34,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.09,Direct Debit
+2/20/24 21:31,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.53,Card
+2/21/24 8:28,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.03,Card
+2/21/24 11:00,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-22.44,Direct Debit
+2/21/24 15:41,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.09,Direct Debit
+2/21/24 16:39,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.86,Direct Debit
+2/22/24 7:36,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.56,Direct Debit
+2/22/24 9:24,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-23.41,Mobile Payment
+2/22/24 10:20,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-28.22,Card
+2/22/24 12:04,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.0,Mobile Payment
+2/22/24 16:54,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.06,Mobile Payment
+2/22/24 19:26,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.81,Card
+2/23/24 11:16,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.65,Card
+2/23/24 20:58,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.89,Mobile Payment
+2/24/24 10:52,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-54.27,Card
+2/24/24 10:58,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-25.18,Direct Debit
+2/24/24 16:50,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-34.43,Direct Debit
+2/24/24 17:15,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.36,Card
+2/24/24 20:14,Travel Purchase,Booking.com,TRV,Travel,Expense,-39.71,Mobile Payment
+2/24/24 20:34,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-51.84,Card
+2/25/24 8:50,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.84,Direct Debit
+2/25/24 9:30,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.61,Mobile Payment
+2/25/24 14:30,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.26,Mobile Payment
+2/25/24 20:02,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.17,Mobile Payment
+2/26/24 7:08,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.94,Card
+2/26/24 16:55,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.6,Mobile Payment
+2/26/24 22:38,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-56.97,Mobile Payment
+2/27/24 8:53,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.56,Mobile Payment
+2/27/24 10:33,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.79,Mobile Payment
+2/27/24 22:44,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.46,Mobile Payment
+2/28/24 7:54,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.97,Card
+2/28/24 10:34,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-28.32,Direct Debit
+2/28/24 13:29,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-36.54,Card
+2/28/24 13:57,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.33,Mobile Payment
+2/28/24 17:21,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.51,Card
+2/28/24 18:28,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.27,Mobile Payment
+2/28/24 21:07,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.84,Mobile Payment
+2/29/24 15:04,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.76,Card
+2/29/24 16:01,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.15,Direct Debit
+2/29/24 18:35,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.47,Mobile Payment
+2/29/24 19:18,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.89,Mobile Payment
+3/1/24 7:21,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.95,Card
+3/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+3/1/24 13:51,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.39,Direct Debit
+3/1/24 14:28,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.62,Card
+3/1/24 15:02,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.23,Card
+3/1/24 16:07,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.5,Mobile Payment
+3/2/24 7:45,Travel Purchase,Ryanair,TRV,Travel,Expense,-5.88,Direct Debit
+3/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+3/2/24 15:09,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.63,Direct Debit
+3/2/24 18:36,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-54.6,Card
+3/3/24 7:03,Travel Purchase,Booking.com,TRV,Travel,Expense,-40.04,Card
+3/3/24 8:29,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-27.27,Direct Debit
+3/3/24 18:21,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-31.71,Mobile Payment
+3/3/24 19:23,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.7,Card
+3/4/24 11:19,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-21.66,Mobile Payment
+3/4/24 13:37,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.01,Direct Debit
+3/4/24 16:26,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.0,Mobile Payment
+3/4/24 19:22,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.95,Card
+3/4/24 21:07,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-23.27,Direct Debit
+3/4/24 21:19,Travel Purchase,Ryanair,TRV,Travel,Expense,-5.86,Direct Debit
+3/4/24 21:29,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.44,Card
+3/5/24 9:15,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.16,Direct Debit
+3/5/24 11:33,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-18.92,Mobile Payment
+3/5/24 13:08,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.23,Card
+3/5/24 13:09,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-33.32,Direct Debit
+3/5/24 15:22,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.81,Direct Debit
+3/5/24 16:13,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.81,Mobile Payment
+3/5/24 21:16,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.56,Mobile Payment
+3/5/24 22:14,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.98,Direct Debit
+3/6/24 22:45,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-27.67,Mobile Payment
+3/7/24 12:12,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.27,Direct Debit
+3/7/24 12:55,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-13.51,Card
+3/7/24 13:55,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.49,Direct Debit
+3/7/24 14:18,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.58,Direct Debit
+3/7/24 19:34,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.03,Mobile Payment
+3/7/24 22:13,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.42,Mobile Payment
+3/8/24 12:38,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-48.13,Mobile Payment
+3/9/24 11:26,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.44,Mobile Payment
+3/9/24 15:11,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.12,Direct Debit
+3/9/24 15:46,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.26,Card
+3/9/24 19:04,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.19,Mobile Payment
+3/10/24 7:16,Travel Purchase,Booking.com,TRV,Travel,Expense,-30.58,Mobile Payment
+3/10/24 10:09,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-22.84,Direct Debit
+3/10/24 10:54,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.5,Direct Debit
+3/10/24 20:23,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.49,Direct Debit
+3/10/24 20:58,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-24.77,Mobile Payment
+3/11/24 11:14,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.29,Card
+3/11/24 20:53,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.51,Mobile Payment
+3/12/24 8:12,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.76,Card
+3/12/24 13:16,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.69,Card
+3/12/24 14:50,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-51.1,Mobile Payment
+3/12/24 15:19,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.22,Card
+3/12/24 16:14,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.53,Mobile Payment
+3/12/24 20:06,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.53,Card
+3/12/24 22:11,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.12,Card
+3/13/24 10:03,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.76,Direct Debit
+3/13/24 13:53,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.62,Card
+3/13/24 15:05,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.58,Mobile Payment
+3/13/24 16:36,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.31,Mobile Payment
+3/13/24 18:34,Travel Purchase,Booking.com,TRV,Travel,Expense,-30.14,Direct Debit
+3/13/24 19:26,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-24.01,Direct Debit
+3/13/24 20:03,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-38.16,Card
+3/13/24 22:41,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.0,Mobile Payment
+3/15/24 7:16,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.49,Direct Debit
+3/15/24 7:18,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.79,Card
+3/15/24 11:53,Travel Purchase,Booking.com,TRV,Travel,Expense,-40.19,Direct Debit
+3/15/24 21:59,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-18.69,Mobile Payment
+3/15/24 22:59,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.39,Direct Debit
+3/16/24 11:28,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-31.57,Mobile Payment
+3/16/24 14:06,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.02,Mobile Payment
+3/16/24 16:00,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.19,Direct Debit
+3/16/24 18:18,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-24.42,Card
+3/16/24 19:28,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.52,Mobile Payment
+3/16/24 22:09,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.17,Mobile Payment
+3/17/24 7:26,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-64.75,Mobile Payment
+3/17/24 12:10,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.84,Card
+3/17/24 12:20,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.73,Mobile Payment
+3/17/24 13:01,Travel Purchase,Booking.com,TRV,Travel,Expense,-37.96,Direct Debit
+3/17/24 16:05,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.53,Direct Debit
+3/17/24 16:24,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.07,Card
+3/17/24 17:05,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-18.24,Direct Debit
+3/18/24 7:59,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-48.34,Direct Debit
+3/18/24 8:40,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.72,Mobile Payment
+3/18/24 21:03,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.16,Card
+3/19/24 9:11,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-21.25,Mobile Payment
+3/19/24 10:19,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.65,Direct Debit
+3/19/24 12:15,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-64.8,Mobile Payment
+3/19/24 13:44,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.12,Direct Debit
+3/19/24 17:38,Travel Purchase,Booking.com,TRV,Travel,Expense,-39.37,Mobile Payment
+3/19/24 18:21,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.8,Card
+3/19/24 19:20,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.26,Direct Debit
+3/20/24 9:07,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-48.55,Mobile Payment
+3/20/24 20:41,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.86,Mobile Payment
+3/21/24 9:17,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.2,Direct Debit
+3/21/24 14:33,Travel Purchase,Booking.com,TRV,Travel,Expense,-38.0,Card
+3/21/24 17:04,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.09,Card
+3/21/24 18:58,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.18,Card
+3/22/24 15:05,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.5,Direct Debit
+3/22/24 16:35,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.71,Card
+3/22/24 20:21,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.66,Direct Debit
+3/22/24 20:34,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.4,Card
+3/22/24 22:32,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.97,Direct Debit
+3/23/24 9:33,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.37,Direct Debit
+3/23/24 12:14,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.29,Card
+3/23/24 15:32,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.9,Mobile Payment
+3/23/24 15:43,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.43,Card
+3/23/24 16:39,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.89,Mobile Payment
+3/24/24 19:49,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-34.96,Mobile Payment
+3/24/24 21:24,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.9,Card
+3/25/24 21:02,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.0,Card
+3/25/24 21:22,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.86,Card
+3/26/24 8:36,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.55,Direct Debit
+3/26/24 15:37,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.53,Card
+3/26/24 17:26,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.47,Card
+3/26/24 21:25,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.7,Mobile Payment
+3/27/24 9:18,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.43,Direct Debit
+3/27/24 18:39,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.79,Card
+3/28/24 8:18,Travel Purchase,Booking.com,TRV,Travel,Expense,-36.2,Direct Debit
+3/28/24 14:05,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.52,Card
+3/28/24 15:14,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-24.43,Card
+3/28/24 21:53,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.17,Card
+3/28/24 22:29,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.78,Mobile Payment
+3/30/24 10:23,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-60.13,Card
+3/30/24 13:21,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-24.03,Direct Debit
+3/30/24 16:25,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.14,Direct Debit
+3/30/24 19:41,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-21.27,Card
+3/30/24 20:35,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-64.33,Mobile Payment
+3/30/24 20:56,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-27.36,Card
+3/30/24 21:45,Travel Purchase,Booking.com,TRV,Travel,Expense,-39.13,Card
+3/30/24 22:33,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.01,Card
+3/31/24 8:46,Travel Purchase,Booking.com,TRV,Travel,Expense,-27.12,Card
+3/31/24 14:37,Travel Purchase,Booking.com,TRV,Travel,Expense,-36.76,Direct Debit
+3/31/24 20:31,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.02,Mobile Payment
+4/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+4/1/24 14:49,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.39,Card
+4/1/24 16:00,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.51,Card
+4/1/24 16:04,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-21.22,Mobile Payment
+4/1/24 20:47,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.42,Direct Debit
+4/1/24 21:04,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.74,Card
+4/2/24 7:40,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.03,Mobile Payment
+4/2/24 7:46,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.46,Direct Debit
+4/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+4/2/24 8:54,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.75,Mobile Payment
+4/2/24 9:31,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-25.44,Direct Debit
+4/2/24 19:32,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-18.39,Mobile Payment
+4/2/24 19:38,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.2,Mobile Payment
+4/3/24 8:16,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.18,Direct Debit
+4/3/24 15:10,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-19.96,Direct Debit
+4/3/24 15:25,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.59,Card
+4/3/24 22:00,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.67,Card
+4/4/24 7:39,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.82,Card
+4/4/24 8:16,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.18,Card
+4/4/24 10:44,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-30.31,Mobile Payment
+4/4/24 17:53,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.43,Direct Debit
+4/5/24 10:18,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.32,Mobile Payment
+4/5/24 14:08,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-44.6,Direct Debit
+4/5/24 19:18,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.11,Direct Debit
+4/5/24 20:40,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.22,Direct Debit
+4/5/24 22:33,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.5,Direct Debit
+4/5/24 22:40,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.53,Card
+4/6/24 9:57,Travel Purchase,Booking.com,TRV,Travel,Expense,-33.24,Mobile Payment
+4/6/24 17:01,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-64.28,Card
+4/6/24 18:39,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.71,Card
+4/7/24 10:52,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.68,Card
+4/7/24 17:22,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.25,Direct Debit
+4/8/24 8:36,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.64,Mobile Payment
+4/8/24 14:08,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.38,Card
+4/8/24 15:52,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.2,Mobile Payment
+4/9/24 22:20,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.32,Card
+4/10/24 15:08,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-34.53,Card
+4/10/24 21:07,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.39,Mobile Payment
+4/11/24 9:26,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-22.32,Direct Debit
+4/11/24 16:05,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.66,Mobile Payment
+4/11/24 19:23,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-25.03,Card
+4/11/24 21:47,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.51,Card
+4/11/24 21:51,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.74,Direct Debit
+4/12/24 7:39,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-13.64,Mobile Payment
+4/12/24 10:08,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.47,Mobile Payment
+4/12/24 15:48,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-27.82,Mobile Payment
+4/12/24 15:53,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.12,Direct Debit
+4/12/24 17:26,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.21,Mobile Payment
+4/12/24 18:29,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-13.79,Mobile Payment
+4/12/24 19:57,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.48,Direct Debit
+4/12/24 22:28,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.58,Mobile Payment
+4/13/24 9:21,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-21.09,Mobile Payment
+4/13/24 17:08,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.51,Direct Debit
+4/13/24 20:52,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.28,Direct Debit
+4/14/24 9:11,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.96,Direct Debit
+4/14/24 15:35,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.2,Mobile Payment
+4/14/24 15:35,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.87,Card
+4/15/24 20:24,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.69,Mobile Payment
+4/15/24 22:05,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.73,Card
+4/17/24 16:43,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-18.17,Mobile Payment
+4/17/24 20:50,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.68,Direct Debit
+4/17/24 22:41,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-19.1,Mobile Payment
+4/18/24 7:03,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.45,Card
+4/18/24 8:35,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.05,Mobile Payment
+4/18/24 11:42,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.26,Direct Debit
+4/18/24 12:05,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.69,Mobile Payment
+4/18/24 12:30,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.39,Direct Debit
+4/18/24 13:08,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.36,Mobile Payment
+4/19/24 12:17,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.98,Card
+4/19/24 14:41,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-18.8,Mobile Payment
+4/19/24 17:01,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.45,Direct Debit
+4/19/24 17:21,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.3,Mobile Payment
+4/19/24 19:50,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.24,Mobile Payment
+4/20/24 14:21,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-26.0,Mobile Payment
+4/20/24 16:46,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.51,Direct Debit
+4/20/24 19:26,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.74,Direct Debit
+4/20/24 22:17,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.49,Mobile Payment
+4/21/24 9:02,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.2,Mobile Payment
+4/21/24 11:06,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-19.05,Direct Debit
+4/21/24 11:56,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.39,Card
+4/21/24 13:18,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.06,Mobile Payment
+4/21/24 14:32,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-55.44,Mobile Payment
+4/21/24 14:43,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.23,Card
+4/21/24 15:11,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.96,Card
+4/22/24 7:57,Travel Purchase,Booking.com,TRV,Travel,Expense,-30.62,Direct Debit
+4/22/24 11:30,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.84,Mobile Payment
+4/22/24 16:38,Travel Purchase,Booking.com,TRV,Travel,Expense,-37.52,Mobile Payment
+4/22/24 22:14,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-31.29,Card
+4/23/24 11:54,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.06,Direct Debit
+4/23/24 18:05,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-58.97,Direct Debit
+4/23/24 20:18,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.57,Direct Debit
+4/23/24 20:19,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-55.34,Mobile Payment
+4/24/24 7:48,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.53,Mobile Payment
+4/24/24 8:17,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.75,Direct Debit
+4/24/24 9:49,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-59.61,Card
+4/25/24 16:54,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-26.16,Card
+4/25/24 18:19,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.43,Mobile Payment
+4/25/24 18:33,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-37.59,Direct Debit
+4/25/24 19:54,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.68,Direct Debit
+4/25/24 20:04,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.09,Direct Debit
+4/26/24 8:53,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.53,Mobile Payment
+4/26/24 9:27,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.36,Card
+4/26/24 11:19,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.86,Direct Debit
+4/27/24 7:48,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.37,Card
+4/27/24 9:29,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.68,Card
+4/27/24 10:20,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.34,Direct Debit
+4/27/24 10:46,Travel Purchase,Booking.com,TRV,Travel,Expense,-30.02,Direct Debit
+4/27/24 13:53,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.97,Card
+4/27/24 13:57,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.44,Direct Debit
+4/27/24 18:14,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.81,Mobile Payment
+4/28/24 7:22,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.12,Card
+4/28/24 7:35,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.47,Mobile Payment
+4/28/24 12:43,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.41,Card
+4/28/24 19:40,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-24.62,Direct Debit
+4/29/24 19:21,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-64.03,Direct Debit
+4/29/24 19:43,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.57,Card
+4/29/24 20:41,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.12,Card
+4/30/24 9:29,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.54,Card
+4/30/24 14:22,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.22,Mobile Payment
+4/30/24 15:47,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.08,Card
+4/30/24 22:58,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.4,Mobile Payment
+5/1/24 8:27,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-19.09,Mobile Payment
+5/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+5/1/24 12:26,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.29,Direct Debit
+5/1/24 15:30,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.45,Direct Debit
+5/1/24 18:28,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.27,Direct Debit
+5/1/24 21:46,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.62,Mobile Payment
+5/2/24 8:15,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.42,Card
+5/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+5/2/24 12:35,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-18.67,Direct Debit
+5/2/24 12:39,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-56.2,Mobile Payment
+5/2/24 15:25,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.54,Direct Debit
+5/2/24 16:51,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.0,Card
+5/2/24 19:14,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.37,Direct Debit
+5/3/24 9:06,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.96,Mobile Payment
+5/3/24 10:49,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.06,Card
+5/3/24 11:18,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-56.6,Card
+5/3/24 16:46,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.5,Card
+5/3/24 20:31,Travel Purchase,Booking.com,TRV,Travel,Expense,-30.08,Direct Debit
+5/4/24 8:43,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.58,Card
+5/4/24 12:35,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-21.05,Direct Debit
+5/4/24 13:25,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.37,Direct Debit
+5/4/24 20:37,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.47,Direct Debit
+5/5/24 7:07,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.93,Card
+5/5/24 8:25,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.29,Card
+5/5/24 8:30,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.94,Card
+5/5/24 9:17,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.32,Direct Debit
+5/5/24 17:21,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.05,Direct Debit
+5/5/24 18:18,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.92,Mobile Payment
+5/5/24 19:47,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.69,Mobile Payment
+5/5/24 22:40,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-25.22,Card
+5/6/24 8:39,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.13,Mobile Payment
+5/6/24 14:17,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.75,Mobile Payment
+5/6/24 14:20,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.59,Mobile Payment
+5/6/24 14:41,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.25,Mobile Payment
+5/7/24 8:29,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.24,Direct Debit
+5/7/24 12:31,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.31,Mobile Payment
+5/7/24 12:52,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.85,Card
+5/7/24 13:12,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.21,Card
+5/7/24 19:49,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.56,Card
+5/8/24 8:31,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.64,Mobile Payment
+5/8/24 8:41,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.83,Card
+5/8/24 11:53,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.14,Card
+5/8/24 13:02,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.27,Mobile Payment
+5/8/24 14:46,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.68,Card
+5/8/24 22:56,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.67,Direct Debit
+5/9/24 13:29,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-21.47,Mobile Payment
+5/10/24 7:21,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.58,Card
+5/10/24 13:21,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.75,Direct Debit
+5/10/24 18:09,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.13,Card
+5/10/24 18:28,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.12,Card
+5/12/24 14:56,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.13,Card
+5/12/24 18:25,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.53,Direct Debit
+5/13/24 11:19,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-54.62,Card
+5/13/24 12:01,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.2,Mobile Payment
+5/13/24 12:32,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-23.66,Card
+5/13/24 18:44,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-57.74,Direct Debit
+5/14/24 9:31,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.68,Direct Debit
+5/14/24 12:32,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.72,Direct Debit
+5/14/24 20:57,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.23,Card
+5/15/24 8:46,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.51,Direct Debit
+5/15/24 18:56,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.32,Direct Debit
+5/15/24 21:03,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.94,Card
+5/16/24 7:18,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-37.48,Mobile Payment
+5/16/24 7:44,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.09,Direct Debit
+5/16/24 11:04,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-26.04,Mobile Payment
+5/16/24 19:05,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.52,Card
+5/16/24 20:17,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.42,Direct Debit
+5/17/24 10:15,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.88,Card
+5/17/24 20:38,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.31,Card
+5/18/24 8:59,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.92,Mobile Payment
+5/19/24 16:38,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.85,Mobile Payment
+5/19/24 18:26,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-16.84,Direct Debit
+5/19/24 21:08,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.54,Mobile Payment
+5/20/24 11:49,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.28,Card
+5/20/24 13:15,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.3,Mobile Payment
+5/20/24 16:07,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-21.67,Direct Debit
+5/21/24 9:15,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.55,Mobile Payment
+5/21/24 11:44,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.98,Mobile Payment
+5/21/24 13:07,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.22,Mobile Payment
+5/21/24 17:55,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.08,Mobile Payment
+5/21/24 21:58,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-60.32,Mobile Payment
+5/22/24 8:32,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.88,Direct Debit
+5/22/24 9:19,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.07,Card
+5/22/24 9:49,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-21.72,Direct Debit
+5/22/24 9:55,Travel Purchase,Ryanair,TRV,Travel,Expense,-5.92,Mobile Payment
+5/22/24 11:23,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.92,Direct Debit
+5/22/24 11:49,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.27,Direct Debit
+5/22/24 13:03,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.16,Direct Debit
+5/22/24 15:08,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-30.05,Direct Debit
+5/22/24 21:15,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.46,Mobile Payment
+5/23/24 20:13,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.1,Direct Debit
+5/23/24 21:11,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-27.78,Mobile Payment
+5/23/24 21:33,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.05,Card
+5/24/24 8:10,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.82,Direct Debit
+5/24/24 19:26,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.02,Card
+5/25/24 7:33,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-26.5,Card
+5/25/24 7:54,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.5,Card
+5/25/24 13:27,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-21.51,Direct Debit
+5/25/24 15:46,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-25.25,Mobile Payment
+5/25/24 17:03,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.15,Direct Debit
+5/25/24 18:20,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.77,Mobile Payment
+5/25/24 20:44,Travel Purchase,Booking.com,TRV,Travel,Expense,-37.22,Mobile Payment
+5/25/24 21:41,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.77,Card
+5/26/24 13:02,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.32,Mobile Payment
+5/26/24 14:17,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-23.79,Card
+5/26/24 20:44,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.31,Mobile Payment
+5/27/24 12:04,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-24.56,Direct Debit
+5/27/24 12:07,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-27.6,Card
+5/27/24 20:38,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.58,Mobile Payment
+5/27/24 22:24,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.74,Mobile Payment
+5/28/24 11:29,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.48,Direct Debit
+5/28/24 12:00,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.35,Direct Debit
+5/28/24 17:07,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.84,Card
+5/28/24 18:51,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.95,Card
+5/29/24 8:17,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.62,Direct Debit
+5/29/24 9:30,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.38,Direct Debit
+5/29/24 15:26,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.08,Card
+5/29/24 21:39,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.89,Mobile Payment
+5/30/24 7:20,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.24,Card
+5/30/24 18:23,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.93,Direct Debit
+5/30/24 19:03,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-45.52,Mobile Payment
+5/30/24 19:25,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.93,Card
+5/30/24 22:12,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-47.77,Mobile Payment
+5/31/24 11:12,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.26,Card
+5/31/24 11:19,Travel Purchase,Booking.com,TRV,Travel,Expense,-38.49,Mobile Payment
+5/31/24 12:02,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.0,Mobile Payment
+5/31/24 16:01,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.41,Card
+5/31/24 17:51,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.06,Card
+5/31/24 20:25,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.01,Direct Debit
+6/1/24 8:28,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-23.53,Card
+6/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+6/1/24 13:09,Travel Purchase,Booking.com,TRV,Travel,Expense,-30.08,Card
+6/1/24 13:55,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-27.19,Mobile Payment
+6/1/24 17:58,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-45.65,Card
+6/1/24 20:19,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.19,Mobile Payment
+6/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+6/2/24 11:08,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-37.53,Mobile Payment
+6/2/24 12:36,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.14,Direct Debit
+6/2/24 17:45,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.87,Card
+6/2/24 20:21,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.47,Card
+6/2/24 20:26,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.93,Card
+6/3/24 7:42,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.63,Mobile Payment
+6/3/24 14:32,Travel Purchase,Booking.com,TRV,Travel,Expense,-27.68,Direct Debit
+6/3/24 15:43,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.9,Mobile Payment
+6/3/24 20:07,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-63.78,Direct Debit
+6/4/24 8:13,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.63,Card
+6/4/24 12:31,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-21.56,Direct Debit
+6/4/24 15:37,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-20.62,Direct Debit
+6/4/24 20:28,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.04,Card
+6/4/24 20:45,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-24.59,Mobile Payment
+6/4/24 22:55,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-16.99,Mobile Payment
+6/5/24 12:04,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-49.75,Direct Debit
+6/5/24 14:14,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-18.68,Direct Debit
+6/5/24 15:27,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.73,Direct Debit
+6/6/24 10:13,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.52,Card
+6/6/24 12:25,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.07,Mobile Payment
+6/6/24 16:08,Travel Purchase,Ryanair,TRV,Travel,Expense,-5.85,Mobile Payment
+6/6/24 17:45,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-31.88,Direct Debit
+6/6/24 18:49,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.37,Mobile Payment
+6/6/24 18:57,Travel Purchase,Booking.com,TRV,Travel,Expense,-39.9,Card
+6/7/24 19:08,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.59,Direct Debit
+6/8/24 7:36,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-34.85,Card
+6/8/24 9:40,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.22,Direct Debit
+6/8/24 10:40,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-31.27,Card
+6/8/24 15:53,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.32,Card
+6/9/24 7:43,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.45,Direct Debit
+6/9/24 8:08,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.58,Direct Debit
+6/9/24 10:15,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.31,Mobile Payment
+6/9/24 16:55,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.86,Mobile Payment
+6/9/24 18:00,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-38.31,Mobile Payment
+6/10/24 8:06,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.87,Direct Debit
+6/10/24 9:00,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.55,Card
+6/10/24 10:47,Travel Purchase,Booking.com,TRV,Travel,Expense,-36.12,Card
+6/10/24 13:41,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.83,Mobile Payment
+6/10/24 16:32,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.62,Direct Debit
+6/10/24 19:17,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.68,Mobile Payment
+6/10/24 20:10,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.47,Card
+6/10/24 22:19,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.03,Card
+6/11/24 14:40,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.76,Card
+6/11/24 20:50,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-37.86,Direct Debit
+6/12/24 9:05,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.7,Direct Debit
+6/12/24 11:26,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.56,Card
+6/12/24 12:25,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.31,Mobile Payment
+6/12/24 13:23,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.26,Card
+6/12/24 15:52,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.97,Mobile Payment
+6/12/24 18:25,Travel Purchase,Booking.com,TRV,Travel,Expense,-31.82,Mobile Payment
+6/12/24 21:56,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-21.98,Card
+6/13/24 9:06,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.07,Card
+6/13/24 9:42,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.91,Mobile Payment
+6/13/24 13:01,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-56.85,Card
+6/13/24 13:12,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-33.44,Direct Debit
+6/13/24 13:48,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.47,Card
+6/13/24 14:48,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.38,Card
+6/13/24 22:32,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-53.04,Direct Debit
+6/14/24 15:10,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.37,Card
+6/14/24 16:21,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.36,Direct Debit
+6/14/24 17:09,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.48,Mobile Payment
+6/15/24 9:50,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.75,Mobile Payment
+6/15/24 9:51,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.35,Direct Debit
+6/15/24 9:56,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.12,Mobile Payment
+6/15/24 12:01,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-49.74,Card
+6/15/24 18:39,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-28.89,Direct Debit
+6/15/24 21:31,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.48,Direct Debit
+6/15/24 22:11,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.25,Mobile Payment
+6/16/24 9:35,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-51.27,Direct Debit
+6/16/24 11:19,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.28,Card
+6/16/24 13:52,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-20.18,Card
+6/16/24 14:41,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.06,Mobile Payment
+6/16/24 20:11,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.98,Direct Debit
+6/17/24 16:44,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-23.92,Direct Debit
+6/17/24 18:57,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.71,Mobile Payment
+6/17/24 19:51,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.53,Direct Debit
+6/17/24 20:33,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.46,Card
+6/17/24 20:44,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.16,Direct Debit
+6/18/24 8:05,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-47.14,Direct Debit
+6/18/24 9:15,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.82,Card
+6/18/24 9:32,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.25,Card
+6/18/24 15:07,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-20.04,Direct Debit
+6/18/24 22:29,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.81,Direct Debit
+6/18/24 22:45,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.33,Card
+6/19/24 8:18,Travel Purchase,Booking.com,TRV,Travel,Expense,-30.47,Mobile Payment
+6/19/24 19:29,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-23.59,Mobile Payment
+6/20/24 11:10,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.32,Mobile Payment
+6/21/24 16:20,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.48,Direct Debit
+6/21/24 19:17,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.06,Card
+6/21/24 22:45,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.69,Card
+6/22/24 10:46,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-46.31,Mobile Payment
+6/22/24 12:39,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-24.42,Card
+6/22/24 14:21,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.36,Mobile Payment
+6/22/24 21:03,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-53.48,Mobile Payment
+6/22/24 21:43,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.21,Direct Debit
+6/22/24 22:45,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-9.0,Card
+6/23/24 8:52,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.98,Card
+6/23/24 10:18,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-22.88,Mobile Payment
+6/23/24 12:01,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.1,Direct Debit
+6/23/24 12:58,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.1,Card
+6/23/24 16:32,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.36,Mobile Payment
+6/23/24 19:49,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-57.01,Direct Debit
+6/24/24 8:02,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.72,Direct Debit
+6/25/24 8:41,Travel Purchase,Booking.com,TRV,Travel,Expense,-37.85,Card
+6/25/24 11:18,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-39.03,Card
+6/25/24 13:26,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.29,Card
+6/25/24 16:30,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-58.18,Direct Debit
+6/25/24 22:50,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.05,Card
+6/26/24 9:35,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-38.19,Card
+6/26/24 11:17,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.08,Card
+6/26/24 15:10,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.64,Direct Debit
+6/26/24 15:14,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.74,Direct Debit
+6/26/24 20:28,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.22,Card
+6/26/24 21:41,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.24,Card
+6/27/24 7:48,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-19.95,Card
+6/27/24 10:11,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.74,Mobile Payment
+6/27/24 18:10,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.97,Mobile Payment
+6/27/24 18:54,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.47,Mobile Payment
+6/27/24 20:21,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.93,Card
+6/28/24 7:11,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-23.93,Direct Debit
+6/28/24 10:27,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.72,Card
+6/28/24 13:00,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.25,Direct Debit
+6/30/24 9:25,Travel Purchase,Ryanair,TRV,Travel,Expense,-5.97,Card
+6/30/24 14:47,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-31.97,Direct Debit
+7/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+7/1/24 9:20,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.65,Mobile Payment
+7/1/24 17:55,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.07,Mobile Payment
+7/1/24 22:42,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-9.14,Mobile Payment
+7/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+7/2/24 13:43,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.91,Mobile Payment
+7/2/24 15:22,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.28,Mobile Payment
+7/3/24 20:18,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-34.51,Direct Debit
+7/4/24 8:17,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.91,Card
+7/4/24 10:34,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.33,Direct Debit
+7/4/24 14:29,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.66,Direct Debit
+7/4/24 16:11,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-24.23,Direct Debit
+7/4/24 21:26,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-26.61,Card
+7/5/24 9:23,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.41,Card
+7/5/24 12:23,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.13,Mobile Payment
+7/7/24 7:33,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.82,Card
+7/7/24 12:00,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.76,Direct Debit
+7/7/24 12:36,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-58.84,Direct Debit
+7/7/24 13:49,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.71,Card
+7/7/24 17:43,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.91,Mobile Payment
+7/7/24 21:29,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-36.69,Mobile Payment
+7/7/24 21:32,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.9,Mobile Payment
+7/7/24 21:51,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-24.35,Card
+7/8/24 20:37,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.3,Direct Debit
+7/8/24 21:05,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.2,Direct Debit
+7/9/24 15:37,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.94,Direct Debit
+7/9/24 15:40,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.46,Mobile Payment
+7/9/24 16:23,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.83,Card
+7/9/24 17:31,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.22,Direct Debit
+7/9/24 20:48,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.65,Direct Debit
+7/9/24 21:48,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.38,Direct Debit
+7/9/24 22:26,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.61,Card
+7/10/24 7:35,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.52,Card
+7/10/24 11:29,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.88,Direct Debit
+7/10/24 14:24,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.29,Direct Debit
+7/10/24 15:47,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.93,Direct Debit
+7/10/24 20:44,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.85,Mobile Payment
+7/10/24 21:31,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-38.28,Card
+7/10/24 21:57,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.19,Card
+7/11/24 9:00,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.83,Direct Debit
+7/11/24 9:43,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.6,Mobile Payment
+7/11/24 11:10,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.3,Mobile Payment
+7/11/24 12:46,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.09,Card
+7/11/24 15:49,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.16,Card
+7/11/24 21:29,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-47.12,Mobile Payment
+7/12/24 14:16,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.03,Mobile Payment
+7/12/24 18:34,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.7,Mobile Payment
+7/12/24 19:20,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.68,Card
+7/12/24 22:53,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.91,Card
+7/13/24 20:13,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.44,Direct Debit
+7/13/24 21:34,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.98,Direct Debit
+7/14/24 9:49,Travel Purchase,Booking.com,TRV,Travel,Expense,-31.34,Direct Debit
+7/14/24 13:09,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.28,Card
+7/14/24 16:26,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.04,Card
+7/14/24 19:21,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-39.04,Direct Debit
+7/14/24 21:33,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.03,Card
+7/15/24 7:02,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.51,Card
+7/15/24 9:21,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.31,Direct Debit
+7/15/24 22:06,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.87,Mobile Payment
+7/15/24 22:25,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-24.77,Card
+7/15/24 22:26,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.49,Direct Debit
+7/16/24 7:18,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.51,Mobile Payment
+7/16/24 13:12,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-19.16,Mobile Payment
+7/16/24 14:24,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.14,Direct Debit
+7/16/24 15:34,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-26.74,Mobile Payment
+7/16/24 18:00,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.33,Direct Debit
+7/16/24 21:46,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-26.9,Direct Debit
+7/17/24 7:35,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-13.8,Direct Debit
+7/17/24 12:23,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.25,Direct Debit
+7/17/24 21:40,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.09,Direct Debit
+7/18/24 7:45,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.61,Mobile Payment
+7/18/24 15:09,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-23.88,Mobile Payment
+7/18/24 16:14,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.67,Mobile Payment
+7/18/24 17:42,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.28,Card
+7/19/24 15:31,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.01,Direct Debit
+7/20/24 8:05,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.71,Mobile Payment
+7/20/24 12:01,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.04,Mobile Payment
+7/20/24 13:29,Travel Purchase,Booking.com,TRV,Travel,Expense,-29.41,Direct Debit
+7/20/24 17:45,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.29,Mobile Payment
+7/20/24 18:07,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.54,Mobile Payment
+7/20/24 22:09,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-16.48,Card
+7/21/24 7:47,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.71,Direct Debit
+7/21/24 8:32,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.99,Mobile Payment
+7/21/24 18:08,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.45,Card
+7/21/24 22:01,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.67,Direct Debit
+7/22/24 9:06,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.43,Mobile Payment
+7/22/24 10:00,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-25.27,Direct Debit
+7/22/24 10:06,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.63,Card
+7/22/24 10:44,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-47.96,Direct Debit
+7/22/24 13:04,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.27,Card
+7/22/24 16:40,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.96,Direct Debit
+7/22/24 17:41,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.99,Card
+7/22/24 22:11,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.66,Direct Debit
+7/23/24 17:04,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-23.09,Direct Debit
+7/23/24 20:46,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.95,Mobile Payment
+7/24/24 8:36,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.15,Direct Debit
+7/24/24 9:56,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.43,Direct Debit
+7/24/24 13:40,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-21.18,Card
+7/24/24 15:39,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.76,Mobile Payment
+7/24/24 20:43,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.8,Direct Debit
+7/24/24 22:04,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.89,Card
+7/25/24 7:42,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.75,Card
+7/25/24 10:14,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.34,Direct Debit
+7/25/24 15:32,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.52,Mobile Payment
+7/25/24 19:55,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.29,Direct Debit
+7/26/24 12:50,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-21.6,Mobile Payment
+7/26/24 13:33,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.9,Card
+7/26/24 14:19,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.96,Mobile Payment
+7/26/24 16:29,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.02,Direct Debit
+7/27/24 9:30,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.06,Card
+7/27/24 10:34,Travel Purchase,Booking.com,TRV,Travel,Expense,-29.64,Direct Debit
+7/27/24 11:59,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.37,Card
+7/27/24 22:48,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.85,Card
+7/28/24 7:55,Travel Purchase,Booking.com,TRV,Travel,Expense,-36.01,Direct Debit
+7/28/24 9:08,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.67,Direct Debit
+7/28/24 11:04,Travel Purchase,Booking.com,TRV,Travel,Expense,-39.86,Direct Debit
+7/28/24 15:42,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.55,Card
+7/28/24 15:55,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-53.9,Direct Debit
+7/28/24 17:07,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.89,Card
+7/28/24 21:05,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.05,Mobile Payment
+7/29/24 7:01,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.65,Direct Debit
+7/29/24 18:02,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.25,Direct Debit
+7/29/24 18:55,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.53,Mobile Payment
+7/29/24 21:55,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.74,Card
+7/30/24 7:11,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.88,Direct Debit
+7/30/24 13:26,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.06,Direct Debit
+7/30/24 13:54,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.92,Card
+7/30/24 14:39,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.53,Direct Debit
+7/30/24 18:29,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.55,Mobile Payment
+7/30/24 20:19,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.57,Mobile Payment
+7/30/24 22:11,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.81,Direct Debit
+7/31/24 7:55,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.59,Card
+7/31/24 11:53,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.25,Card
+7/31/24 18:40,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-13.8,Mobile Payment
+7/31/24 22:29,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-21.43,Direct Debit
+8/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+8/1/24 10:55,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.62,Mobile Payment
+8/1/24 11:18,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-18.11,Card
+8/1/24 17:35,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-59.39,Card
+8/1/24 18:50,Travel Purchase,Booking.com,TRV,Travel,Expense,-39.89,Card
+8/1/24 21:24,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.6,Mobile Payment
+8/1/24 22:36,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.17,Direct Debit
+8/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+8/2/24 14:31,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.17,Card
+8/3/24 10:47,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.53,Direct Debit
+8/3/24 14:08,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.39,Direct Debit
+8/3/24 16:50,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.09,Direct Debit
+8/3/24 18:34,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.76,Card
+8/3/24 18:51,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-28.63,Mobile Payment
+8/4/24 7:07,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.54,Direct Debit
+8/4/24 18:39,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.42,Card
+8/4/24 19:04,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.24,Direct Debit
+8/4/24 20:29,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.0,Mobile Payment
+8/5/24 10:13,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.34,Mobile Payment
+8/5/24 13:26,Travel Purchase,Booking.com,TRV,Travel,Expense,-31.85,Direct Debit
+8/6/24 16:36,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.47,Card
+8/6/24 17:05,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.85,Card
+8/7/24 13:44,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-26.87,Direct Debit
+8/7/24 18:22,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-16.91,Card
+8/8/24 10:00,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.35,Mobile Payment
+8/8/24 10:18,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.09,Mobile Payment
+8/8/24 21:35,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.71,Card
+8/9/24 18:40,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.23,Card
+8/9/24 20:54,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.54,Mobile Payment
+8/10/24 8:25,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-57.58,Mobile Payment
+8/10/24 9:47,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-18.87,Mobile Payment
+8/10/24 12:46,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-19.34,Mobile Payment
+8/10/24 13:52,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-26.43,Direct Debit
+8/10/24 15:26,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.87,Direct Debit
+8/10/24 17:34,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-13.94,Mobile Payment
+8/11/24 7:10,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.41,Direct Debit
+8/11/24 10:24,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.51,Card
+8/11/24 19:15,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.0,Direct Debit
+8/12/24 9:07,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.35,Mobile Payment
+8/12/24 10:49,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.17,Mobile Payment
+8/12/24 12:39,Travel Purchase,Booking.com,TRV,Travel,Expense,-31.66,Card
+8/12/24 13:01,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.22,Card
+8/12/24 14:32,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.32,Direct Debit
+8/12/24 19:25,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.3,Card
+8/12/24 20:49,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-48.6,Direct Debit
+8/12/24 21:33,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.44,Direct Debit
+8/13/24 8:04,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-19.72,Mobile Payment
+8/13/24 8:37,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.23,Direct Debit
+8/13/24 8:59,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.11,Direct Debit
+8/13/24 10:33,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.08,Card
+8/13/24 12:14,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.88,Card
+8/13/24 13:27,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.27,Card
+8/13/24 19:21,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.78,Direct Debit
+8/13/24 22:46,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.88,Mobile Payment
+8/14/24 16:10,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.68,Direct Debit
+8/14/24 18:57,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.12,Direct Debit
+8/14/24 20:17,Travel Purchase,Booking.com,TRV,Travel,Expense,-33.73,Direct Debit
+8/14/24 21:43,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.75,Mobile Payment
+8/15/24 7:51,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.53,Direct Debit
+8/15/24 9:51,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.84,Mobile Payment
+8/15/24 9:51,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.64,Mobile Payment
+8/15/24 12:44,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-44.29,Card
+8/15/24 14:35,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-39.42,Direct Debit
+8/15/24 16:48,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.88,Mobile Payment
+8/15/24 18:48,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.28,Card
+8/16/24 9:24,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.54,Card
+8/16/24 13:13,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.91,Mobile Payment
+8/16/24 15:21,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.86,Card
+8/16/24 18:51,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-36.75,Card
+8/18/24 18:05,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.97,Mobile Payment
+8/18/24 18:59,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.28,Mobile Payment
+8/18/24 19:22,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-22.61,Card
+8/18/24 22:01,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.57,Card
+8/20/24 8:02,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.29,Mobile Payment
+8/20/24 11:32,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.65,Mobile Payment
+8/20/24 13:56,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.35,Mobile Payment
+8/20/24 15:19,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-13.6,Card
+8/20/24 21:39,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-30.92,Card
+8/20/24 22:07,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.44,Direct Debit
+8/20/24 22:20,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-62.1,Mobile Payment
+8/21/24 11:24,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.31,Card
+8/21/24 13:33,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-20.36,Direct Debit
+8/21/24 15:53,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.33,Direct Debit
+8/21/24 17:23,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-60.97,Direct Debit
+8/21/24 17:27,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-25.52,Direct Debit
+8/21/24 20:33,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-21.59,Direct Debit
+8/21/24 20:56,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.52,Mobile Payment
+8/22/24 8:18,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-60.42,Card
+8/22/24 10:08,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-63.83,Direct Debit
+8/22/24 11:16,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.6,Mobile Payment
+8/22/24 11:47,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.76,Card
+8/22/24 15:45,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-59.23,Direct Debit
+8/22/24 18:01,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.83,Mobile Payment
+8/23/24 9:55,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.12,Direct Debit
+8/23/24 16:41,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-23.82,Direct Debit
+8/24/24 12:27,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.35,Mobile Payment
+8/24/24 16:46,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.9,Card
+8/24/24 21:02,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-23.28,Card
+8/25/24 8:35,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.69,Card
+8/25/24 14:41,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.3,Direct Debit
+8/25/24 15:54,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.29,Mobile Payment
+8/25/24 17:48,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.7,Mobile Payment
+8/25/24 22:40,Travel Purchase,Booking.com,TRV,Travel,Expense,-28.66,Mobile Payment
+8/26/24 22:14,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-26.68,Mobile Payment
+8/27/24 11:39,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-62.92,Mobile Payment
+8/27/24 15:55,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.34,Mobile Payment
+8/27/24 17:54,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.46,Mobile Payment
+8/28/24 7:47,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-64.93,Direct Debit
+8/28/24 21:32,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.66,Direct Debit
+8/29/24 11:23,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.55,Mobile Payment
+8/29/24 20:59,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.34,Card
+8/29/24 22:57,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-27.62,Mobile Payment
+8/30/24 8:41,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.23,Direct Debit
+8/30/24 10:31,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-19.99,Mobile Payment
+8/30/24 12:36,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-25.48,Mobile Payment
+8/30/24 19:24,Travel Purchase,Booking.com,TRV,Travel,Expense,-37.87,Card
+8/30/24 19:43,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.75,Mobile Payment
+8/30/24 20:12,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.6,Direct Debit
+8/31/24 10:28,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.58,Direct Debit
+8/31/24 12:16,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.91,Card
+8/31/24 15:57,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-50.6,Direct Debit
+8/31/24 20:13,Travel Purchase,Booking.com,TRV,Travel,Expense,-27.88,Direct Debit
+8/31/24 21:16,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.21,Direct Debit
+9/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+9/1/24 9:08,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.16,Direct Debit
+9/1/24 13:48,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.79,Card
+9/1/24 13:48,Travel Purchase,Booking.com,TRV,Travel,Expense,-29.88,Direct Debit
+9/1/24 16:00,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.56,Mobile Payment
+9/1/24 17:59,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-48.93,Card
+9/1/24 19:20,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.01,Direct Debit
+9/2/24 8:05,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.54,Card
+9/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+9/2/24 17:11,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.84,Mobile Payment
+9/2/24 21:54,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-36.56,Mobile Payment
+9/3/24 12:14,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.96,Mobile Payment
+9/3/24 13:31,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-21.91,Mobile Payment
+9/3/24 14:51,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.38,Direct Debit
+9/3/24 17:15,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-57.83,Card
+9/4/24 16:49,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.82,Card
+9/4/24 21:27,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.58,Direct Debit
+9/5/24 9:11,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.1,Mobile Payment
+9/5/24 9:48,Travel Purchase,Booking.com,TRV,Travel,Expense,-28.54,Mobile Payment
+9/5/24 10:01,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.05,Mobile Payment
+9/5/24 10:04,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.45,Mobile Payment
+9/5/24 10:30,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.9,Mobile Payment
+9/5/24 12:51,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.29,Card
+9/5/24 20:27,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-47.66,Direct Debit
+9/5/24 21:29,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.37,Direct Debit
+9/5/24 22:01,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.67,Card
+9/6/24 10:36,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.74,Mobile Payment
+9/6/24 11:12,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-19.04,Mobile Payment
+9/6/24 13:22,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-30.91,Mobile Payment
+9/7/24 12:05,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-60.52,Card
+9/7/24 18:48,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-27.49,Direct Debit
+9/7/24 19:04,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.88,Direct Debit
+9/8/24 8:05,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.68,Card
+9/8/24 14:22,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.44,Mobile Payment
+9/8/24 15:34,Travel Purchase,Booking.com,TRV,Travel,Expense,-38.39,Mobile Payment
+9/8/24 22:08,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.28,Direct Debit
+9/9/24 10:06,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.52,Direct Debit
+9/9/24 10:54,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.82,Direct Debit
+9/9/24 13:46,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.96,Card
+9/9/24 16:15,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.45,Card
+9/10/24 8:08,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.87,Card
+9/10/24 8:28,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.48,Direct Debit
+9/10/24 12:04,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.39,Direct Debit
+9/10/24 19:07,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.72,Card
+9/11/24 9:53,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.57,Direct Debit
+9/11/24 11:41,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-63.49,Mobile Payment
+9/11/24 12:10,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-44.46,Direct Debit
+9/11/24 14:40,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-45.45,Card
+9/12/24 7:33,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-55.26,Direct Debit
+9/12/24 9:40,Travel Purchase,Booking.com,TRV,Travel,Expense,-30.89,Direct Debit
+9/12/24 11:40,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.45,Card
+9/12/24 13:15,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.42,Card
+9/12/24 13:42,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.59,Direct Debit
+9/12/24 17:16,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.37,Mobile Payment
+9/12/24 21:20,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.83,Card
+9/13/24 8:02,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.3,Direct Debit
+9/13/24 10:11,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.4,Mobile Payment
+9/14/24 7:42,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.54,Mobile Payment
+9/14/24 12:03,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.71,Card
+9/14/24 12:37,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.25,Mobile Payment
+9/14/24 14:53,Travel Purchase,Booking.com,TRV,Travel,Expense,-38.89,Mobile Payment
+9/14/24 17:24,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-18.89,Mobile Payment
+9/14/24 22:45,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.96,Direct Debit
+9/15/24 8:27,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.59,Mobile Payment
+9/15/24 16:27,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.64,Direct Debit
+9/15/24 20:53,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.73,Card
+9/15/24 21:17,Travel Purchase,Booking.com,TRV,Travel,Expense,-28.36,Card
+9/15/24 21:48,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.86,Mobile Payment
+9/16/24 8:42,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.15,Mobile Payment
+9/16/24 16:42,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.75,Direct Debit
+9/17/24 15:36,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.03,Mobile Payment
+9/17/24 19:07,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-50.18,Mobile Payment
+9/17/24 22:05,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-61.93,Card
+9/19/24 10:28,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.89,Card
+9/19/24 10:32,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.41,Mobile Payment
+9/19/24 11:53,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.77,Card
+9/19/24 22:29,Travel Purchase,Booking.com,TRV,Travel,Expense,-40.02,Direct Debit
+9/20/24 12:04,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.33,Card
+9/21/24 9:05,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.75,Card
+9/21/24 11:13,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-53.23,Mobile Payment
+9/21/24 11:29,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.89,Mobile Payment
+9/21/24 15:24,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.14,Direct Debit
+9/21/24 17:27,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-21.59,Direct Debit
+9/21/24 17:37,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.26,Mobile Payment
+9/22/24 13:47,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-34.95,Card
+9/22/24 14:28,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.54,Mobile Payment
+9/22/24 15:51,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.08,Direct Debit
+9/22/24 21:09,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.52,Mobile Payment
+9/22/24 21:31,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.96,Mobile Payment
+9/23/24 22:40,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.22,Mobile Payment
+9/24/24 10:00,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-58.16,Mobile Payment
+9/24/24 17:59,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.12,Direct Debit
+9/25/24 7:11,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.06,Card
+9/25/24 8:53,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.77,Mobile Payment
+9/25/24 11:15,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.36,Direct Debit
+9/26/24 9:18,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.36,Direct Debit
+9/26/24 14:50,Travel Purchase,Booking.com,TRV,Travel,Expense,-30.58,Card
+9/26/24 15:03,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.71,Card
+9/26/24 20:30,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-54.16,Direct Debit
+9/26/24 21:33,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.09,Mobile Payment
+9/26/24 22:00,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.54,Card
+9/27/24 7:23,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.53,Mobile Payment
+9/27/24 10:44,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.55,Mobile Payment
+9/27/24 20:10,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.97,Card
+9/28/24 9:32,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.28,Card
+9/28/24 15:53,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-38.49,Direct Debit
+9/28/24 18:27,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.65,Mobile Payment
+9/28/24 18:49,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-19.07,Card
+9/28/24 20:00,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.88,Mobile Payment
+9/28/24 20:14,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.88,Direct Debit
+9/28/24 22:35,Travel Purchase,Booking.com,TRV,Travel,Expense,-40.02,Card
+9/30/24 14:08,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.56,Mobile Payment
+9/30/24 16:07,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-52.05,Direct Debit
+9/30/24 19:13,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.11,Direct Debit
+9/30/24 19:20,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.44,Direct Debit
+9/30/24 20:34,Travel Purchase,Booking.com,TRV,Travel,Expense,-39.85,Mobile Payment
+9/30/24 21:01,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-16.9,Mobile Payment
+10/1/24 7:44,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.69,Card
+10/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+10/1/24 9:06,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.04,Direct Debit
+10/1/24 17:25,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.54,Mobile Payment
+10/1/24 17:29,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.03,Mobile Payment
+10/1/24 18:56,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-31.47,Direct Debit
+10/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+10/2/24 9:50,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.59,Mobile Payment
+10/2/24 13:05,Travel Purchase,Booking.com,TRV,Travel,Expense,-33.07,Direct Debit
+10/2/24 15:44,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.84,Card
+10/2/24 15:59,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.64,Card
+10/3/24 11:46,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.49,Card
+10/3/24 13:45,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-9.17,Mobile Payment
+10/3/24 14:00,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.23,Direct Debit
+10/3/24 22:30,Medical Purchase,Pharmacy,MED,Medical,Expense,-9.85,Card
+10/4/24 8:22,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.17,Mobile Payment
+10/4/24 8:39,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.88,Direct Debit
+10/4/24 8:47,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-44.38,Direct Debit
+10/4/24 11:09,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-34.38,Direct Debit
+10/4/24 13:50,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.57,Direct Debit
+10/4/24 18:29,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.42,Direct Debit
+10/5/24 18:34,Travel Purchase,Booking.com,TRV,Travel,Expense,-27.41,Mobile Payment
+10/5/24 20:34,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.19,Direct Debit
+10/6/24 11:25,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-20.15,Card
+10/6/24 16:41,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.32,Mobile Payment
+10/6/24 17:41,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.67,Direct Debit
+10/6/24 18:43,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.43,Mobile Payment
+10/7/24 17:29,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-59.79,Mobile Payment
+10/7/24 18:44,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-62.7,Direct Debit
+10/8/24 8:00,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.0,Direct Debit
+10/8/24 8:29,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.52,Card
+10/8/24 9:18,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.79,Direct Debit
+10/8/24 14:06,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.68,Card
+10/8/24 16:46,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.07,Direct Debit
+10/9/24 10:11,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.24,Direct Debit
+10/10/24 8:28,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.52,Card
+10/10/24 11:06,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.43,Card
+10/10/24 11:12,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-25.05,Mobile Payment
+10/10/24 12:28,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.14,Card
+10/10/24 16:02,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.61,Mobile Payment
+10/11/24 8:37,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.65,Card
+10/11/24 12:31,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.39,Direct Debit
+10/11/24 18:07,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-34.0,Direct Debit
+10/11/24 21:02,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.26,Mobile Payment
+10/12/24 9:36,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.67,Direct Debit
+10/12/24 15:57,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.29,Mobile Payment
+10/12/24 16:14,Travel Purchase,Booking.com,TRV,Travel,Expense,-30.73,Card
+10/12/24 18:48,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-16.69,Direct Debit
+10/13/24 12:43,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-21.82,Card
+10/13/24 13:30,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.28,Direct Debit
+10/13/24 14:36,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.04,Card
+10/13/24 15:22,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.49,Mobile Payment
+10/13/24 19:41,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-23.13,Mobile Payment
+10/13/24 21:00,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.77,Mobile Payment
+10/14/24 7:07,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.49,Mobile Payment
+10/14/24 7:38,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.11,Direct Debit
+10/14/24 9:13,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.83,Direct Debit
+10/14/24 12:29,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.94,Card
+10/14/24 14:31,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.9,Card
+10/14/24 14:47,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.69,Mobile Payment
+10/14/24 16:19,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.49,Direct Debit
+10/14/24 20:26,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.51,Card
+10/15/24 7:05,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.54,Direct Debit
+10/15/24 8:09,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.79,Card
+10/15/24 8:11,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.57,Card
+10/15/24 16:47,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.8,Mobile Payment
+10/16/24 8:58,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.3,Direct Debit
+10/16/24 11:20,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.49,Card
+10/16/24 11:47,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.03,Card
+10/16/24 12:10,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.56,Direct Debit
+10/16/24 13:04,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.29,Mobile Payment
+10/16/24 22:35,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.54,Direct Debit
+10/17/24 8:38,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.87,Direct Debit
+10/17/24 12:23,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-36.63,Mobile Payment
+10/17/24 13:11,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.05,Direct Debit
+10/18/24 15:22,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.24,Mobile Payment
+10/18/24 16:28,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.78,Mobile Payment
+10/18/24 18:34,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.39,Direct Debit
+10/18/24 19:21,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.94,Card
+10/18/24 22:10,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.06,Mobile Payment
+10/19/24 7:29,Travel Purchase,Booking.com,TRV,Travel,Expense,-28.71,Mobile Payment
+10/19/24 8:33,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.54,Card
+10/19/24 14:01,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.88,Mobile Payment
+10/19/24 20:11,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.77,Direct Debit
+10/19/24 20:39,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-54.07,Mobile Payment
+10/19/24 22:02,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-31.74,Mobile Payment
+10/20/24 11:45,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.94,Card
+10/20/24 11:51,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.49,Direct Debit
+10/20/24 19:54,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.12,Mobile Payment
+10/20/24 22:09,Travel Purchase,Booking.com,TRV,Travel,Expense,-33.72,Mobile Payment
+10/21/24 7:16,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.67,Mobile Payment
+10/21/24 7:54,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-24.07,Card
+10/21/24 11:32,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.62,Card
+10/22/24 10:38,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-26.91,Mobile Payment
+10/22/24 12:31,Travel Purchase,Booking.com,TRV,Travel,Expense,-37.32,Card
+10/22/24 13:45,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-57.6,Direct Debit
+10/22/24 14:46,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.25,Mobile Payment
+10/22/24 15:40,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.5,Mobile Payment
+10/22/24 17:35,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-38.21,Direct Debit
+10/22/24 22:54,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-17.39,Direct Debit
+10/23/24 7:59,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.74,Direct Debit
+10/23/24 17:26,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.82,Direct Debit
+10/23/24 18:52,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-46.26,Direct Debit
+10/23/24 21:43,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.65,Mobile Payment
+10/24/24 13:55,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.51,Mobile Payment
+10/24/24 22:21,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-24.91,Card
+10/25/24 10:59,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.0,Direct Debit
+10/25/24 15:58,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.21,Card
+10/25/24 18:03,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-32.95,Mobile Payment
+10/26/24 8:44,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.41,Mobile Payment
+10/26/24 16:31,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.2,Card
+10/26/24 19:05,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.78,Card
+10/26/24 20:32,Travel Purchase,Booking.com,TRV,Travel,Expense,-31.65,Mobile Payment
+10/26/24 20:40,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-3.06,Direct Debit
+10/26/24 22:59,Travel Purchase,Booking.com,TRV,Travel,Expense,-39.22,Card
+10/27/24 11:48,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.24,Card
+10/27/24 12:49,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.66,Card
+10/27/24 18:22,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.22,Mobile Payment
+10/27/24 20:07,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.03,Mobile Payment
+10/28/24 11:22,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.17,Direct Debit
+10/28/24 12:07,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.75,Card
+10/28/24 13:27,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.58,Card
+10/28/24 17:01,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-27.11,Mobile Payment
+10/28/24 18:55,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.63,Card
+10/29/24 7:45,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-24.23,Mobile Payment
+10/29/24 9:52,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.27,Mobile Payment
+10/29/24 22:53,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-26.61,Direct Debit
+10/31/24 9:43,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.42,Mobile Payment
+10/31/24 20:50,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.56,Mobile Payment
+11/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+11/1/24 9:14,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.52,Card
+11/1/24 15:04,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.46,Direct Debit
+11/1/24 16:06,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.73,Direct Debit
+11/1/24 16:46,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.69,Mobile Payment
+11/1/24 17:11,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-26.79,Card
+11/2/24 7:29,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.89,Mobile Payment
+11/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+11/2/24 12:34,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.58,Mobile Payment
+11/2/24 17:15,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-27.84,Mobile Payment
+11/2/24 18:37,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.13,Direct Debit
+11/3/24 17:32,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.4,Mobile Payment
+11/3/24 18:24,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.65,Mobile Payment
+11/3/24 19:42,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-18.23,Card
+11/3/24 20:05,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.6,Mobile Payment
+11/3/24 21:48,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.84,Card
+11/4/24 12:34,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.29,Direct Debit
+11/4/24 21:08,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.97,Direct Debit
+11/4/24 22:19,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.58,Direct Debit
+11/5/24 10:45,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.89,Card
+11/5/24 16:56,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.57,Mobile Payment
+11/5/24 17:28,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-20.58,Card
+11/5/24 17:53,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.14,Card
+11/5/24 20:06,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.18,Mobile Payment
+11/5/24 20:39,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.59,Mobile Payment
+11/6/24 10:49,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-27.64,Card
+11/6/24 13:36,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.57,Card
+11/6/24 14:49,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.5,Direct Debit
+11/6/24 20:10,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.4,Card
+11/7/24 8:19,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.77,Card
+11/7/24 14:36,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.23,Mobile Payment
+11/7/24 19:02,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.12,Card
+11/7/24 19:46,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.99,Mobile Payment
+11/7/24 20:07,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.55,Card
+11/8/24 15:21,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-37.01,Direct Debit
+11/8/24 20:04,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.51,Card
+11/9/24 12:24,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.25,Card
+11/9/24 14:26,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.42,Direct Debit
+11/9/24 15:18,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.4,Direct Debit
+11/9/24 15:38,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.62,Card
+11/9/24 22:14,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-54.73,Direct Debit
+11/10/24 7:48,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.1,Direct Debit
+11/10/24 8:56,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.78,Card
+11/10/24 10:58,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.6,Card
+11/10/24 14:41,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.49,Mobile Payment
+11/10/24 16:45,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-63.76,Card
+11/10/24 16:51,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.33,Direct Debit
+11/10/24 20:17,Travel Purchase,Booking.com,TRV,Travel,Expense,-39.58,Card
+11/10/24 20:40,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.43,Direct Debit
+11/11/24 11:50,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.08,Card
+11/11/24 14:04,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.56,Mobile Payment
+11/11/24 14:15,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-24.75,Card
+11/11/24 14:15,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-36.67,Direct Debit
+11/12/24 8:23,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-24.69,Mobile Payment
+11/12/24 21:44,Travel Purchase,Booking.com,TRV,Travel,Expense,-37.34,Direct Debit
+11/12/24 22:42,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-43.43,Mobile Payment
+11/13/24 8:55,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-53.78,Card
+11/13/24 10:21,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.71,Direct Debit
+11/13/24 11:07,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.24,Card
+11/13/24 14:31,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.39,Direct Debit
+11/13/24 19:51,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-20.06,Direct Debit
+11/13/24 21:53,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.04,Mobile Payment
+11/14/24 10:13,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-20.96,Direct Debit
+11/14/24 13:18,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.1,Direct Debit
+11/14/24 15:00,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.95,Mobile Payment
+11/15/24 7:18,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.27,Card
+11/15/24 17:24,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.63,Mobile Payment
+11/15/24 17:42,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.63,Direct Debit
+11/15/24 18:59,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.45,Mobile Payment
+11/15/24 19:41,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.64,Mobile Payment
+11/16/24 9:13,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.63,Mobile Payment
+11/16/24 12:36,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.69,Card
+11/17/24 12:50,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.95,Direct Debit
+11/17/24 15:38,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-50.42,Card
+11/17/24 22:44,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.42,Mobile Payment
+11/18/24 8:57,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.17,Direct Debit
+11/18/24 10:55,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.74,Direct Debit
+11/18/24 19:09,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-19.1,Mobile Payment
+11/19/24 17:04,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.53,Direct Debit
+11/19/24 19:49,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-62.33,Card
+11/19/24 22:31,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-26.89,Card
+11/20/24 7:55,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.43,Mobile Payment
+11/20/24 8:00,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.18,Card
+11/20/24 13:54,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-37.29,Mobile Payment
+11/20/24 15:32,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-38.37,Card
+11/20/24 15:53,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-34.06,Mobile Payment
+11/20/24 22:36,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.92,Direct Debit
+11/21/24 7:21,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.67,Mobile Payment
+11/22/24 14:03,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.13,Direct Debit
+11/22/24 15:10,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.63,Direct Debit
+11/22/24 15:29,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.12,Direct Debit
+11/22/24 20:59,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.68,Mobile Payment
+11/22/24 21:39,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.67,Direct Debit
+11/22/24 22:58,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-20.62,Card
+11/23/24 13:09,Travel Purchase,Booking.com,TRV,Travel,Expense,-29.02,Mobile Payment
+11/23/24 17:38,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.02,Card
+11/23/24 20:44,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.94,Card
+11/23/24 22:28,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.28,Mobile Payment
+11/23/24 22:41,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.24,Mobile Payment
+11/24/24 11:04,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.06,Mobile Payment
+11/24/24 12:40,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.46,Card
+11/24/24 22:29,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.17,Card
+11/25/24 14:40,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.98,Direct Debit
+11/26/24 9:39,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.69,Mobile Payment
+11/26/24 10:03,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.84,Card
+11/26/24 17:26,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-21.84,Direct Debit
+11/26/24 17:36,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.73,Card
+11/26/24 22:06,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.96,Card
+11/26/24 22:28,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-45.31,Card
+11/27/24 9:23,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.53,Card
+11/27/24 17:00,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.64,Card
+11/28/24 8:05,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.27,Direct Debit
+11/28/24 12:07,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.97,Card
+11/28/24 12:32,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.71,Mobile Payment
+11/28/24 12:45,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.26,Mobile Payment
+11/28/24 20:14,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.74,Card
+11/29/24 11:19,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.42,Card
+11/29/24 13:27,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.48,Direct Debit
+11/29/24 14:10,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.68,Card
+12/1/24 9:00,Monthly Salary,Tech Solutions Ltd,SAL,Salary,Income,3500,Bank Transfer
+12/1/24 10:53,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.06,Direct Debit
+12/1/24 13:44,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-19.8,Card
+12/1/24 19:29,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.42,Mobile Payment
+12/1/24 21:20,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.49,Mobile Payment
+12/1/24 22:18,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.36,Mobile Payment
+12/2/24 8:30,Monthly Apartment Rent,City Apartments,RNT,Rent,Expense,-1200.0,Bank Transfer
+12/2/24 9:25,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.31,Card
+12/2/24 11:05,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.71,Mobile Payment
+12/2/24 12:18,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.2,Direct Debit
+12/2/24 13:38,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.62,Card
+12/3/24 11:40,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.55,Direct Debit
+12/3/24 16:29,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-44.61,Direct Debit
+12/3/24 22:55,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.62,Direct Debit
+12/4/24 10:41,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-44.33,Card
+12/4/24 10:42,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-34.64,Mobile Payment
+12/4/24 13:19,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.86,Mobile Payment
+12/4/24 14:26,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.36,Direct Debit
+12/4/24 16:05,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.69,Direct Debit
+12/4/24 16:19,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.84,Card
+12/4/24 16:31,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.42,Card
+12/4/24 20:39,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-48.5,Card
+12/4/24 22:50,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.71,Direct Debit
+12/5/24 18:55,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-49.62,Mobile Payment
+12/5/24 19:09,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.69,Mobile Payment
+12/6/24 12:03,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-19.64,Mobile Payment
+12/7/24 16:02,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-9.13,Card
+12/7/24 18:25,Travel Purchase,Ryanair,TRV,Travel,Expense,-8.34,Direct Debit
+12/8/24 13:33,Travel Purchase,Booking.com,TRV,Travel,Expense,-31.7,Direct Debit
+12/8/24 14:17,Travel Purchase,Booking.com,TRV,Travel,Expense,-36.27,Direct Debit
+12/8/24 18:51,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-9.09,Mobile Payment
+12/9/24 10:17,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-21.2,Card
+12/9/24 13:23,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.77,Direct Debit
+12/9/24 19:23,Travel Purchase,Booking.com,TRV,Travel,Expense,-36.92,Card
+12/9/24 19:50,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-22.17,Direct Debit
+12/10/24 8:11,Travel Purchase,Booking.com,TRV,Travel,Expense,-33.77,Card
+12/10/24 10:34,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-23.18,Card
+12/10/24 12:04,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-25.61,Card
+12/10/24 13:33,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.92,Card
+12/10/24 15:37,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.05,Direct Debit
+12/10/24 19:28,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-6.48,Card
+12/10/24 22:18,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-61.63,Direct Debit
+12/11/24 10:14,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.42,Card
+12/11/24 21:44,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.82,Card
+12/11/24 22:30,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.44,Direct Debit
+12/12/24 10:56,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-49.45,Mobile Payment
+12/12/24 14:51,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-9.04,Mobile Payment
+12/12/24 17:24,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.25,Mobile Payment
+12/13/24 7:44,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.85,Mobile Payment
+12/13/24 10:08,Travel Purchase,Booking.com,TRV,Travel,Expense,-32.38,Card
+12/13/24 14:42,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-20.71,Mobile Payment
+12/13/24 17:01,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-28.77,Direct Debit
+12/13/24 19:20,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-21.95,Card
+12/13/24 20:33,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-23.64,Mobile Payment
+12/14/24 9:19,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-8.35,Card
+12/14/24 10:08,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.26,Direct Debit
+12/14/24 10:43,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.95,Mobile Payment
+12/14/24 18:08,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.71,Mobile Payment
+12/14/24 19:22,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-18.85,Mobile Payment
+12/15/24 9:11,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.35,Direct Debit
+12/15/24 9:38,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-23.63,Card
+12/15/24 17:40,Travel Purchase,Booking.com,TRV,Travel,Expense,-36.35,Direct Debit
+12/15/24 22:49,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-24.36,Direct Debit
+12/16/24 8:10,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-17.08,Card
+12/16/24 9:07,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.42,Direct Debit
+12/16/24 11:22,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.7,Mobile Payment
+12/16/24 11:30,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.18,Direct Debit
+12/16/24 12:48,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-22.81,Card
+12/16/24 16:39,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-20.84,Card
+12/16/24 17:53,Travel Purchase,Booking.com,TRV,Travel,Expense,-27.6,Card
+12/16/24 19:20,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-22.66,Card
+12/17/24 12:29,Travel Purchase,Ryanair,TRV,Travel,Expense,-7.36,Direct Debit
+12/17/24 22:36,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.88,Card
+12/18/24 7:00,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.26,Card
+12/18/24 7:38,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-39.19,Mobile Payment
+12/18/24 9:18,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.27,Mobile Payment
+12/18/24 17:55,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.57,Card
+12/18/24 18:31,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-20.77,Card
+12/18/24 22:18,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-14.67,Direct Debit
+12/19/24 10:26,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.27,Card
+12/19/24 13:21,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.99,Mobile Payment
+12/19/24 14:16,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.07,Mobile Payment
+12/19/24 19:51,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.27,Card
+12/19/24 21:22,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-59.02,Direct Debit
+12/19/24 22:20,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-21.05,Mobile Payment
+12/20/24 9:52,Travel Purchase,Booking.com,TRV,Travel,Expense,-37.52,Mobile Payment
+12/20/24 12:46,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.61,Mobile Payment
+12/20/24 14:17,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-24.42,Direct Debit
+12/20/24 15:39,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.97,Direct Debit
+12/20/24 19:43,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.97,Direct Debit
+12/20/24 20:13,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-18.88,Mobile Payment
+12/21/24 7:24,Car Service Purchase,Auto Service Pro,CAR,Car Service,Expense,-21.53,Direct Debit
+12/21/24 11:30,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-15.28,Mobile Payment
+12/21/24 18:14,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-7.09,Direct Debit
+12/22/24 8:21,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.57,Card
+12/22/24 11:48,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.53,Card
+12/22/24 14:19,Medical Purchase,Pharmacy,MED,Medical,Expense,-13.02,Mobile Payment
+12/22/24 16:44,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-63.34,Direct Debit
+12/22/24 21:20,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-27.01,Mobile Payment
+12/22/24 22:12,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-23.72,Direct Debit
+12/23/24 12:28,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.31,Direct Debit
+12/24/24 10:12,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.39,Card
+12/24/24 10:20,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.57,Card
+12/24/24 10:27,Travel Purchase,Ryanair,TRV,Travel,Expense,-6.57,Direct Debit
+12/24/24 17:20,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.5,Card
+12/25/24 9:41,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-7.68,Card
+12/25/24 15:35,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-2.09,Card
+12/25/24 19:05,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.8,Card
+12/25/24 21:04,Car Fuel Purchase,Total Energies,FUEL,Car Fuel,Expense,-18.75,Mobile Payment
+12/26/24 16:18,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-38.99,Mobile Payment
+12/26/24 16:35,Groceries Purchase,Carrefour,GRY,Groceries,Expense,-45.07,Direct Debit
+12/26/24 21:13,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-35.58,Direct Debit
+12/26/24 21:39,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-30.8,Card
+12/27/24 16:58,Subscriptions Purchase,Gym Membership,SUB,Subscriptions,Expense,-5.25,Card
+12/28/24 11:00,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.74,Card
+12/28/24 16:12,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.21,Mobile Payment
+12/28/24 16:35,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.58,Card
+12/28/24 17:28,Food & Drink Purchase,Restaurant,ENT,Food & Drink,Expense,-29.18,Mobile Payment
+12/28/24 17:33,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-23.5,Mobile Payment
+12/28/24 20:00,Travel Purchase,Booking.com,TRV,Travel,Expense,-34.08,Mobile Payment
+12/28/24 21:48,Subscriptions Purchase,Netflix,SUB,Subscriptions,Expense,-2.82,Card
+12/29/24 8:00,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.86,Direct Debit
+12/29/24 15:38,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.95,Direct Debit
+12/29/24 20:18,Utilities Purchase,Orange Telecom,UTL,Utilities,Expense,-6.18,Direct Debit
+12/29/24 20:43,Medical Purchase,Pharmacy,MED,Medical,Expense,-11.58,Direct Debit
+12/30/24 7:02,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.63,Direct Debit
+12/30/24 10:18,Travel Purchase,Booking.com,TRV,Travel,Expense,-29.0,Direct Debit
+12/30/24 12:50,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.58,Card
+12/30/24 14:22,Subscriptions Purchase,Spotify,SUB,Subscriptions,Expense,-1.45,Direct Debit
+12/30/24 16:11,Medical Purchase,Pharmacy,MED,Medical,Expense,-12.37,Mobile Payment
+12/30/24 20:17,Utilities Purchase,EDF Energy,UTL,Utilities,Expense,-17.55,Mobile Payment
+12/30/24 20:53,Food & Drink Purchase,Local Cafe,ENT,Food & Drink,Expense,-1.26,Direct Debit
+12/31/24 9:05,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-22.19,Mobile Payment
+12/31/24 9:32,Online Shopping Purchase,Amazon,SHOP,Online Shopping,Expense,-19.01,Mobile Payment
+12/31/24 9:37,Medical Purchase,Pharmacy,MED,Medical,Expense,-10.02,Mobile Payment
+12/31/24 9:59,Travel Purchase,Booking.com,TRV,Travel,Expense,-33.1,Card
+12/31/24 15:48,Travel Purchase,Booking.com,TRV,Travel,Expense,-35.49,Direct Debit
+12/31/24 18:30,Travel Purchase,Booking.com,TRV,Travel,Expense,-33.36,Mobile Payment
