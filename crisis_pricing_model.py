@@ -7,6 +7,74 @@ preserving demand and brand equity.
 
 Author : Yaroslav Dobrianskyi
 Usage  : python3 crisis_pricing_model.py [--demo] [--export-report]
+
+Architecture (5 modules)
+
+  ┌───────────────┬─────────────────────────────────────────────────────────┐
+  │    Module     │                         Purpose                         │
+  ├───────────────┼─────────────────────────────────────────────────────────┤
+  │               │ Weighted composite scoring across 5 macro signals       │
+  │ Crisis        │ (volatility, demand, cost, sentiment, supply            │
+  │ Detector      │ disruption) → classifies into NONE / MILD / MODERATE /  │
+  │               │ SEVERE                                                  │
+  ├───────────────┼─────────────────────────────────────────────────────────┤
+  │ Elasticity    │ GradientBoostedRegressor that predicts demand response  │
+  │ Model         │ to price changes, with crisis×category interaction      │
+  │               │ features (CV R² = 0.98)                                 │
+  ├───────────────┼─────────────────────────────────────────────────────────┤
+  │               │ 12-cell matrix (4 crisis levels × 3 product categories) │
+  │ Strategy      │  selecting the right strategy — from margin_optimize in │
+  │ Matrix        │  normal times to ethical_cap / liquidation in severe    │
+  │               │ crisis                                                  │
+  ├───────────────┼─────────────────────────────────────────────────────────┤
+  │ Constrained   │ scipy bounded optimization maximizing contribution      │
+  │ Optimizer     │ margin under guardrails (margin floor, daily damping    │
+  │               │ ±3%, ethical caps on essentials)                        │
+  ├───────────────┼─────────────────────────────────────────────────────────┤
+  │ Scenario      │ What-if engine comparing 5 pre-built scenarios: normal, │
+  │ Simulator     │  mild recession, severe recession, war disruption,      │
+  │               │ supply-chain shock                                      │
+  └───────────────┴─────────────────────────────────────────────────────────┘
+
+  Key strategies by crisis severity
+
+  - Normal → pure margin optimization across all categories
+  - Mild → cost passthrough on essentials, selective discounts on
+  semi-essentials
+  - Moderate → capped cost passthrough, demand protection, deep discounts on
+  discretionary
+  - Severe → ethical caps on essentials (max +10%), survival pricing,
+  liquidation of discretionary inventory
+
+  Results summary from the demo run
+
+  ┌────────────────────┬────────────┬────────────────┐
+  │      Scenario      │ Avg Margin │ Revenue Impact │
+  ├────────────────────┼────────────┼────────────────┤
+  │ Normal             │ 60.4%      │ +0.6%          │
+  ├────────────────────┼────────────┼────────────────┤
+  │ Mild Recession     │ 58.6%      │ -0.2%          │
+  ├────────────────────┼────────────┼────────────────┤
+  │ Severe Recession   │ 55.7%      │ -0.4%          │
+  ├────────────────────┼────────────┼────────────────┤
+  │ War Disruption     │ 44.2%      │ +4.3%          │
+  ├────────────────────┼────────────┼────────────────┤
+  │ Supply Chain Shock │ 38.8%      │ +2.6%          │
+  └────────────────────┴────────────┴────────────────┘
+
+ Usage
+
+  source ~/Documents/Scripts/.venv/bin/activate
+
+  # Full scenario comparison
+  python3 ~/crisis_pricing_model.py --demo
+
+  # Export to CSV
+  python3 ~/crisis_pricing_model.py --demo --export-report
+  results.csv
+
+  # Single war-disruption scenario
+  python3 ~/crisis_pricing_model.py
 """
 
 import argparse
