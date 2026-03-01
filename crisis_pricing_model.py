@@ -64,33 +64,25 @@ Architecture (5 modules)
 
  Usage
 
-  source ~/Documents/Scripts/.venv/bin/activate
-
   # Full scenario comparison
-  python3 ~/crisis_pricing_model.py --demo
+  python3 crisis_pricing_model.py --demo
 
   # Export to CSV
-  python3 ~/crisis_pricing_model.py --demo --export-report
+  python3 crisis_pricing_model.py --demo --export-report
   results.csv
 
   # Single war-disruption scenario
-  python3 ~/crisis_pricing_model.py
+  python3 crisis_pricing_model.py
 """
 
+
 import argparse
-import warnings
-from dataclasses import dataclass, field
+import csv
+import math
+import random
+from dataclasses import dataclass
 from enum import Enum
 from typing import Optional
-
-import numpy as np
-import pandas as pd
-from scipy.optimize import minimize_scalar
-from sklearn.ensemble import GradientBoostingRegressor
-from sklearn.model_selection import TimeSeriesSplit
-from sklearn.metrics import mean_absolute_error, r2_score
-
-warnings.filterwarnings("ignore")
 
 # ──────────────────────────────────────────────────────────────────────
 # 1.  DOMAIN DEFINITIONS
@@ -104,9 +96,9 @@ class CrisisLevel(Enum):
 
 
 class ProductCategory(Enum):
-    ESSENTIAL = "essential"          # food, medicine, utilities
+    ESSENTIAL = "essential"            # food, medicine, utilities
     SEMI_ESSENTIAL = "semi_essential"  # electronics, home goods
-    DISCRETIONARY = "discretionary"  # luxury, travel, entertainment
+    DISCRETIONARY = "discretionary"    # luxury, travel, entertainment
 
 
 @dataclass
@@ -131,11 +123,11 @@ class Product:
 @dataclass
 class MarketSignals:
     """Real-time market context fed into the pricing engine."""
-    volatility_index: float       # 0-100, e.g. VIX-like
-    demand_change_pct: float      # vs. baseline, e.g. -0.25 = 25% drop
-    cost_change_pct: float        # supply-side cost inflation
-    competitor_price_change: float # avg competitor move, e.g. +0.10
-    consumer_sentiment: float     # 0-100 index
+    volatility_index: float        # 0-100, e.g. VIX-like
+    demand_change_pct: float       # vs. baseline, e.g. -0.25 = 25% drop
+    cost_change_pct: float         # supply-side cost inflation
+    competitor_price_change: float  # avg competitor move, e.g. +0.10
+    consumer_sentiment: float      # 0-100 index
     supply_disruption_score: float  # 0-1, 1 = total disruption
 
 
@@ -173,7 +165,7 @@ class CrisisDetector:
             + self.WEIGHTS["sentiment"] * (1 - signals.consumer_sentiment / 100)
             + self.WEIGHTS["supply"] * signals.supply_disruption_score
         )
-        return round(np.clip(s, 0, 1), 4)
+        return round(max(0.0, min(1.0, s)), 4)
 
     def detect(self, signals: MarketSignals) -> CrisisLevel:
         s = self.score(signals)
@@ -192,109 +184,157 @@ class CrisisDetector:
 
 class ElasticityModel:
     """
-    Gradient-boosted demand model.  Features include price ratio,
-    crisis level, category, inventory pressure, and competitor delta.
-    Trained on synthetic historical data for demo; in production
-    this trains on actual transaction logs.
+    Parametric demand-response model calibrated on synthetic data via
+    gradient descent.  Learns category-specific base elasticities and
+    crisis amplification factors from generated observations.
+
+    In production this would be a GBM/neural net trained on transaction
+    logs; the parametric form here keeps the engine dependency-free
+    while preserving the same predictive structure.
     """
 
     def __init__(self):
-        self.model = GradientBoostingRegressor(
-            n_estimators=200,
-            max_depth=4,
-            learning_rate=0.05,
-            subsample=0.8,
-            random_state=42,
-        )
+        # learnable parameters (initialised to priors, refined by training)
+        self._base_elasticity = {
+            ProductCategory.ESSENTIAL: -0.4,
+            ProductCategory.SEMI_ESSENTIAL: -1.2,
+            ProductCategory.DISCRETIONARY: -2.0,
+        }
+        self._crisis_amplifier = {
+            ProductCategory.ESSENTIAL: 0.06,
+            ProductCategory.SEMI_ESSENTIAL: 0.30,
+            ProductCategory.DISCRETIONARY: 0.30,
+        }
+        self._competitor_weight = 0.15
         self.is_fitted = False
-
-    # ── feature engineering ──────────────────────────────────────────
-
-    @staticmethod
-    def _encode_category(cat: ProductCategory) -> list[float]:
-        return [
-            1.0 if cat == ProductCategory.ESSENTIAL else 0.0,
-            1.0 if cat == ProductCategory.SEMI_ESSENTIAL else 0.0,
-            1.0 if cat == ProductCategory.DISCRETIONARY else 0.0,
-        ]
-
-    def _build_features(
-        self,
-        price_ratio: float,
-        category: ProductCategory,
-        crisis_level: int,
-        inventory_days: float,
-        competitor_delta: float,
-    ) -> np.ndarray:
-        cat_enc = self._encode_category(category)
-        return np.array([
-            price_ratio,
-            price_ratio ** 2,           # non-linear price effect
-            crisis_level,
-            crisis_level * price_ratio,  # interaction: crisis amplifies sensitivity
-            inventory_days / 90,
-            competitor_delta,
-            *cat_enc,
-        ]).reshape(1, -1)
 
     # ── synthetic training data ──────────────────────────────────────
 
-    def _generate_training_data(self, n: int = 5000) -> tuple[np.ndarray, np.ndarray]:
+    @staticmethod
+    def _generate_training_data(n: int = 5000, seed: int = 42):
         """
-        Simulate historical (price_change → demand_change) observations
+        Simulate historical (price_change -> demand_change) observations
         across normal and crisis periods with realistic elasticity curves.
         """
-        rng = np.random.RandomState(42)
+        rng = random.Random(seed)
+        categories = list(ProductCategory)
+        crisis_choices = [0, 1, 2, 3]
+        crisis_weights = [0.55, 0.20, 0.15, 0.10]
 
-        rows, targets = [], []
+        data = []
         for _ in range(n):
-            cat = rng.choice(list(ProductCategory))
-            crisis = rng.choice([0, 1, 2, 3], p=[0.55, 0.20, 0.15, 0.10])
-            price_ratio = rng.uniform(0.70, 1.40)  # 30% discount to 40% markup
+            cat = rng.choice(categories)
+            crisis = rng.choices(crisis_choices, weights=crisis_weights, k=1)[0]
+            price_ratio = rng.uniform(0.70, 1.40)
             inv_days = rng.uniform(5, 120)
-            comp_delta = rng.normal(0, 0.08)
+            comp_delta = rng.gauss(0, 0.08)
 
-            # ground-truth elasticity by category
             base_elast = {
                 ProductCategory.ESSENTIAL: -0.4,
                 ProductCategory.SEMI_ESSENTIAL: -1.2,
                 ProductCategory.DISCRETIONARY: -2.0,
             }[cat]
 
-            # crisis amplifies elasticity for non-essentials
-            crisis_mult = 1.0 + 0.3 * crisis * (0.2 if cat == ProductCategory.ESSENTIAL else 1.0)
+            crisis_mult = 1.0 + 0.3 * crisis * (
+                0.2 if cat == ProductCategory.ESSENTIAL else 1.0
+            )
             elasticity = base_elast * crisis_mult
 
-            # demand change = elasticity * ln(price_ratio) + noise
-            demand_change = elasticity * np.log(price_ratio)
-            demand_change += 0.15 * comp_delta  # competitor effect
-            demand_change += rng.normal(0, 0.04)  # noise
+            demand_change = elasticity * math.log(price_ratio)
+            demand_change += 0.15 * comp_delta
+            demand_change += rng.gauss(0, 0.04)
 
-            feat = self._build_features(price_ratio, cat, crisis, inv_days, comp_delta)
-            rows.append(feat.flatten())
-            targets.append(demand_change)
+            data.append({
+                "category": cat,
+                "crisis": crisis,
+                "price_ratio": price_ratio,
+                "inv_days": inv_days,
+                "comp_delta": comp_delta,
+                "demand_change": demand_change,
+            })
+        return data
 
-        return np.array(rows), np.array(targets)
-
-    # ── train & evaluate ─────────────────────────────────────────────
+    # ── train via gradient descent ───────────────────────────────────
 
     def train(self, verbose: bool = False):
-        X, y = self._generate_training_data()
-        tscv = TimeSeriesSplit(n_splits=3)
-        mae_scores, r2_scores = [], []
-        for train_idx, val_idx in tscv.split(X):
-            self.model.fit(X[train_idx], y[train_idx])
-            preds = self.model.predict(X[val_idx])
-            mae_scores.append(mean_absolute_error(y[val_idx], preds))
-            r2_scores.append(r2_score(y[val_idx], preds))
+        """
+        Calibrate parameters by minimising MSE on synthetic data.
+        Uses simple coordinate descent — no external optimiser needed.
+        """
+        data = self._generate_training_data()
+        n = len(data)
 
-        # final fit on full data
-        self.model.fit(X, y)
+        # split: first 80% train, last 20% validation
+        split = int(n * 0.8)
+        train_data = data[:split]
+        val_data = data[split:]
+
+        # coordinate descent over parameters
+        lr = 0.001
+        for epoch in range(200):
+            total_loss = 0.0
+            for obs in train_data:
+                pred = self._predict_raw(
+                    obs["price_ratio"], obs["category"],
+                    obs["crisis"], obs["comp_delta"],
+                )
+                error = pred - obs["demand_change"]
+                total_loss += error ** 2
+
+                # gradient updates
+                log_pr = math.log(obs["price_ratio"])
+                crisis = obs["crisis"]
+                cat = obs["category"]
+                amp = self._crisis_amplifier[cat]
+                eff_elast = self._base_elasticity[cat] * (1.0 + amp * crisis)
+
+                # d_loss/d_base_elast
+                d_base = 2 * error * (1.0 + amp * crisis) * log_pr
+                self._base_elasticity[cat] -= lr * d_base
+
+                # d_loss/d_crisis_amplifier
+                d_amp = 2 * error * self._base_elasticity[cat] * crisis * log_pr
+                self._crisis_amplifier[cat] -= lr * d_amp
+
+                # d_loss/d_competitor_weight
+                d_cw = 2 * error * obs["comp_delta"]
+                self._competitor_weight -= lr * d_cw
+
+        # validation metrics
+        val_errors = []
+        val_targets = []
+        for obs in val_data:
+            pred = self._predict_raw(
+                obs["price_ratio"], obs["category"],
+                obs["crisis"], obs["comp_delta"],
+            )
+            val_errors.append((pred - obs["demand_change"]) ** 2)
+            val_targets.append(obs["demand_change"])
+
+        mae = sum(abs(e) ** 0.5 for e in val_errors) / len(val_errors)
+        mean_y = sum(val_targets) / len(val_targets)
+        ss_res = sum(val_errors)
+        ss_tot = sum((y - mean_y) ** 2 for y in val_targets)
+        r2 = 1 - ss_res / ss_tot if ss_tot > 0 else 0.0
+
         self.is_fitted = True
 
         if verbose:
-            print(f"  Elasticity model trained — CV MAE: {np.mean(mae_scores):.4f}, "
-                  f"R²: {np.mean(r2_scores):.4f}")
+            print(f"  Elasticity model trained — Val MAE: {mae:.4f}, R²: {r2:.4f}")
+
+    def _predict_raw(
+        self,
+        price_ratio: float,
+        category: ProductCategory,
+        crisis_level: int,
+        competitor_delta: float,
+    ) -> float:
+        base = self._base_elasticity[category]
+        amp = self._crisis_amplifier[category]
+        effective_elasticity = base * (1.0 + amp * crisis_level)
+        demand_change = effective_elasticity * math.log(price_ratio)
+        demand_change += self._competitor_weight * competitor_delta
+        return demand_change
 
     def predict_demand_change(
         self,
@@ -307,12 +347,37 @@ class ElasticityModel:
         """Predict % demand change for a given price ratio."""
         if not self.is_fitted:
             self.train()
-        feat = self._build_features(price_ratio, category, crisis_level, inventory_days, competitor_delta)
-        return float(self.model.predict(feat)[0])
+        return self._predict_raw(price_ratio, category, crisis_level, competitor_delta)
 
 
 # ──────────────────────────────────────────────────────────────────────
-# 4.  PRICING STRATEGY ENGINE — crisis-aware optimisation
+# 4.  BOUNDED OPTIMISER — golden-section search (replaces scipy)
+# ──────────────────────────────────────────────────────────────────────
+
+def golden_section_min(func, a: float, b: float, tol: float = 1e-6, max_iter: int = 200) -> float:
+    """
+    Find x in [a, b] that minimises func(x) using golden-section search.
+    Pure-Python replacement for scipy.optimize.minimize_scalar(method='bounded').
+    """
+    gr = (math.sqrt(5) + 1) / 2  # golden ratio
+    c = b - (b - a) / gr
+    d = a + (b - a) / gr
+
+    for _ in range(max_iter):
+        if abs(b - a) < tol:
+            break
+        if func(c) < func(d):
+            b = d
+        else:
+            a = c
+        c = b - (b - a) / gr
+        d = a + (b - a) / gr
+
+    return (a + b) / 2
+
+
+# ──────────────────────────────────────────────────────────────────────
+# 5.  PRICING STRATEGY ENGINE — crisis-aware optimisation
 # ──────────────────────────────────────────────────────────────────────
 
 @dataclass
@@ -342,15 +407,15 @@ class CrisisPricingEngine:
     Core engine that combines crisis detection, elasticity prediction,
     and constrained margin optimisation.
 
-    Strategy matrix (crisis_level × category):
-    ┌─────────────┬────────────────┬──────────────────┬────────────────────┐
-    │ Crisis      │ Essential      │ Semi-Essential   │ Discretionary      │
-    ├─────────────┼────────────────┼──────────────────┼────────────────────┤
-    │ None        │ Standard       │ Standard         │ Standard           │
-    │ Mild        │ Hold / +cost   │ Selective disc.  │ Moderate discount  │
-    │ Moderate    │ Cost pass-thru │ Demand-protect   │ Deep discount      │
-    │ Severe      │ Ethical cap    │ Survival pricing │ Liquidation        │
-    └─────────────┴────────────────┴──────────────────┴────────────────────┘
+    Strategy matrix (crisis_level x category):
+    +-------------+----------------+------------------+--------------------+
+    | Crisis      | Essential      | Semi-Essential   | Discretionary      |
+    +-------------+----------------+------------------+--------------------+
+    | None        | Standard       | Standard         | Standard           |
+    | Mild        | Hold / +cost   | Selective disc.  | Moderate discount  |
+    | Moderate    | Cost pass-thru | Demand-protect   | Deep discount      |
+    | Severe      | Ethical cap    | Survival pricing | Liquidation        |
+    +-------------+----------------+------------------+--------------------+
     """
 
     def __init__(
@@ -362,7 +427,7 @@ class CrisisPricingEngine:
         self.elasticity = elasticity_model
         self.constraints = constraints or PricingConstraints()
 
-    # ── strategy selection ───────────────────────────────────────────
+    # -- strategy selection -------------------------------------------
 
     def _select_strategy(
         self, crisis: CrisisLevel, category: ProductCategory
@@ -391,9 +456,9 @@ class CrisisPricingEngine:
         }
         return matrix[crisis][category]
 
-    # ── objective function for optimisation ──────────────────────────
+    # -- objective function for optimisation --------------------------
 
-    def _contribution_margin(
+    def _neg_contribution_margin(
         self,
         price: float,
         product: Product,
@@ -402,8 +467,7 @@ class CrisisPricingEngine:
     ) -> float:
         """
         Predicted contribution margin = (price - cost) * demand(price).
-        We maximise this subject to constraints.
-        Negative sign because scipy minimises.
+        Returns negative value because the optimiser minimises.
         """
         price_ratio = price / product.base_price
         demand_change = self.elasticity.predict_demand_change(
@@ -413,18 +477,17 @@ class CrisisPricingEngine:
             inventory_days=product.inventory_days,
             competitor_delta=signals.competitor_price_change,
         )
-        relative_demand = 1.0 + demand_change
-        relative_demand = max(relative_demand, 0.01)  # floor
+        relative_demand = max(1.0 + demand_change, 0.01)
 
         unit_cost = product.unit_cost * (1 + signals.cost_change_pct)
         margin_per_unit = price - unit_cost
-        return -(margin_per_unit * relative_demand)  # negative for minimisation
+        return -(margin_per_unit * relative_demand)
 
-    # ── constrained price bounds ─────────────────────────────────────
+    # -- constrained price bounds -------------------------------------
 
     def _price_bounds(
         self, product: Product, strategy: str, signals: MarketSignals
-    ) -> tuple[float, float]:
+    ) -> tuple:
         c = self.constraints
         unit_cost = product.unit_cost * (1 + signals.cost_change_pct)
         min_price = unit_cost / (1 - c.min_margin_floor)  # margin floor
@@ -445,7 +508,7 @@ class CrisisPricingEngine:
 
         return lower, upper
 
-    # ── main pricing logic ───────────────────────────────────────────
+    # -- main pricing logic -------------------------------------------
 
     def price_product(
         self, product: Product, signals: MarketSignals
@@ -454,13 +517,11 @@ class CrisisPricingEngine:
         strategy = self._select_strategy(crisis, product.category)
         lower, upper = self._price_bounds(product, strategy, signals)
 
-        result = minimize_scalar(
-            self._contribution_margin,
-            bounds=(lower, upper),
-            method="bounded",
-            args=(product, crisis.value, signals),
+        optimal_price = golden_section_min(
+            lambda p: self._neg_contribution_margin(p, product, crisis.value, signals),
+            lower, upper,
         )
-        optimal_price = round(result.x, 2)
+        optimal_price = round(optimal_price, 2)
 
         # dampen daily change
         max_move = product.current_price * self.constraints.daily_change_damper
@@ -490,14 +551,13 @@ class CrisisPricingEngine:
         )
 
     def price_catalog(
-        self, products: list[Product], signals: MarketSignals
-    ) -> pd.DataFrame:
-        results = [self.price_product(p, signals) for p in products]
-        return pd.DataFrame([r.__dict__ for r in results])
+        self, products: list, signals: MarketSignals
+    ) -> list:
+        return [self.price_product(p, signals) for p in products]
 
 
 # ──────────────────────────────────────────────────────────────────────
-# 5.  SCENARIO SIMULATOR — compare strategies across crisis levels
+# 6.  SCENARIO SIMULATOR — compare strategies across crisis levels
 # ──────────────────────────────────────────────────────────────────────
 
 class ScenarioSimulator:
@@ -534,22 +594,24 @@ class ScenarioSimulator:
     def __init__(self, engine: CrisisPricingEngine):
         self.engine = engine
 
-    def run(self, products: list[Product]) -> pd.DataFrame:
+    def run(self, products: list) -> list:
+        """Returns list of dicts with scenario + crisis_score + PricingResult fields."""
         all_results = []
         for scenario_name, signals in self.SCENARIOS.items():
-            # reset prices to base for fair comparison
             for p in products:
                 p.current_price = p.base_price
-            df = self.engine.price_catalog(products, signals)
-            df.insert(0, "scenario", scenario_name)
+            results = self.engine.price_catalog(products, signals)
             crisis_score = self.engine.detector.score(signals)
-            df.insert(1, "crisis_score", crisis_score)
-            all_results.append(df)
-        return pd.concat(all_results, ignore_index=True)
+            for r in results:
+                row = r.__dict__.copy()
+                row["scenario"] = scenario_name
+                row["crisis_score"] = crisis_score
+                all_results.append(row)
+        return all_results
 
 
 # ──────────────────────────────────────────────────────────────────────
-# 6.  SAMPLE CATALOG
+# 7.  SAMPLE CATALOG
 # ──────────────────────────────────────────────────────────────────────
 
 SAMPLE_PRODUCTS = [
@@ -566,19 +628,29 @@ SAMPLE_PRODUCTS = [
 
 
 # ──────────────────────────────────────────────────────────────────────
-# 7.  REPORT GENERATOR
+# 8.  REPORT GENERATOR
 # ──────────────────────────────────────────────────────────────────────
 
-def print_report(sim_df: pd.DataFrame) -> None:
+def print_report(sim_results: list) -> None:
     """Pretty-print scenario comparison to terminal."""
     print("\n" + "=" * 90)
     print("  CRISIS-ADAPTIVE PRICING ENGINE — Scenario Analysis")
     print("=" * 90)
 
-    for scenario in sim_df["scenario"].unique():
-        sdf = sim_df[sim_df["scenario"] == scenario]
-        crisis_score = sdf["crisis_score"].iloc[0]
-        crisis_level = sdf["crisis_level"].iloc[0]
+    # group by scenario (preserving order)
+    scenarios_seen = []
+    grouped = {}
+    for row in sim_results:
+        s = row["scenario"]
+        if s not in grouped:
+            scenarios_seen.append(s)
+            grouped[s] = []
+        grouped[s].append(row)
+
+    for scenario in scenarios_seen:
+        rows = grouped[scenario]
+        crisis_score = rows[0]["crisis_score"]
+        crisis_level = rows[0]["crisis_level"]
 
         print(f"\n{'─' * 90}")
         print(f"  Scenario: {scenario.upper().replace('_', ' ')}")
@@ -586,33 +658,46 @@ def print_report(sim_df: pd.DataFrame) -> None:
         print(f"{'─' * 90}")
         print(f"  {'SKU':<10} {'Product':<22} {'Old':>7} {'New':>7} {'Chg%':>7} "
               f"{'Demand':>8} {'Margin':>8} {'Strategy':<24}")
-        print(f"  {'':─<10} {'':─<22} {'':─>7} {'':─>7} {'':─>7} {'':─>8} {'':─>8} {'':─<24}")
+        print(f"  {'─'*10} {'─'*22} {'─'*7} {'─'*7} {'─'*7} {'─'*8} {'─'*8} {'─'*24}")
 
-        for _, r in sdf.iterrows():
+        for r in rows:
             pct = (r["new_price"] / r["old_price"] - 1) * 100
+            demand_str = f"{r['predicted_demand_change']:+7.1%}"
+            margin_str = f"{r['expected_margin']:7.1%}"
             print(
                 f"  {r['sku']:<10} {r['sku']:<22} "
                 f"€{r['old_price']:>6.2f} €{r['new_price']:>6.2f} {pct:>+6.1f}% "
-                f"{r['predicted_demand_change']:>+7.1%} "
-                f"{r['expected_margin']:>7.1%} "
+                f"{demand_str} "
+                f"{margin_str} "
                 f"{r['strategy_applied']:<24}"
             )
 
-        # scenario summary
-        avg_margin = sdf["expected_margin"].mean()
-        avg_rev_chg = sdf["expected_revenue_change"].mean()
+        margins = [r["expected_margin"] for r in rows]
+        rev_chgs = [r["expected_revenue_change"] for r in rows]
+        avg_margin = sum(margins) / len(margins)
+        avg_rev_chg = sum(rev_chgs) / len(rev_chgs)
         print(f"\n  Avg margin: {avg_margin:.1%}  |  Avg revenue impact: {avg_rev_chg:+.1%}")
 
     print(f"\n{'=' * 90}\n")
 
 
-def export_csv(sim_df: pd.DataFrame, path: str) -> None:
-    sim_df.to_csv(path, index=False)
+def export_csv(sim_results: list, path: str) -> None:
+    """Export simulation results to CSV using stdlib csv module."""
+    if not sim_results:
+        return
+    fieldnames = ["scenario", "crisis_score", "sku", "old_price", "new_price",
+                  "predicted_demand_change", "expected_margin",
+                  "expected_revenue_change", "strategy_applied", "crisis_level"]
+    with open(path, "w", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for row in sim_results:
+            writer.writerow({k: row[k] for k in fieldnames})
     print(f"  Exported to {path}")
 
 
 # ──────────────────────────────────────────────────────────────────────
-# 8.  MAIN
+# 9.  MAIN
 # ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -647,11 +732,11 @@ def main():
         score = engine.detector.score(signals)
         print(f"  Crisis detected: {crisis.name} (score={score:.2f})")
 
-        df = engine.price_catalog(SAMPLE_PRODUCTS, signals)
-        for _, r in df.iterrows():
-            pct = (r["new_price"] / r["old_price"] - 1) * 100
-            print(f"  {r['sku']}  €{r['old_price']:.2f} → €{r['new_price']:.2f} "
-                  f"({pct:+.1f}%)  strategy={r['strategy_applied']}")
+        results = engine.price_catalog(SAMPLE_PRODUCTS, signals)
+        for r in results:
+            pct = (r.new_price / r.old_price - 1) * 100
+            print(f"  {r.sku}  €{r.old_price:.2f} -> €{r.new_price:.2f} "
+                  f"({pct:+.1f}%)  strategy={r.strategy_applied}")
 
     print("\n  Done.\n")
 
